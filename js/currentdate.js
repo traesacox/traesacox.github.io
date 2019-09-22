@@ -1,12 +1,4 @@
-//day names array
-/*const dayNames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Friday",
-    "Saturday"
-];*/
+
 //long month names array
 const months = [
     "January",
@@ -24,7 +16,6 @@ const months = [
 ];
 
 const todaysdate = new Date();
-//const dayName = dayNames[todaysdate.getDay()];
 const monthName = months[todaysdate.getMonth()];
 const currentdate = monthName +" "+todaysdate.getDate() + ", " + todaysdate.getFullYear();
 const currentyear = todaysdate.getFullYear();
