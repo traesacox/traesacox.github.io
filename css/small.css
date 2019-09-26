@@ -1,0 +1,50 @@
+header,
+footer {
+    background-color: palevioletred;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    line-height: 2.75em;
+    width: 960px;
+
+}
+
+header {
+
+    text-align: left;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+header img {
+    width: 200px;
+    height:auto;
+    
+}
+
+footer {
+    font-size: .75em;
+    text-align: center;
+}
+
+header,
+nav,
+footer,
+main {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Patrick Hand', Candara, Gadget, serif;
+    font-size: 1em;
+    margin: 1.25rem auto;
+    text-decoration: underline;
+
+}
+
+nav li {
+    font-family: 'Patrick Hand', Candara, Gadget, serif;
+    font-size: 1em;
+}
