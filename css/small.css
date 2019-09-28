@@ -2,15 +2,11 @@ header,
 footer {
     background-color: palevioletred;
     font-family: 'Kalam', Candara, Gadget, serif;
-    line-height: 2.75em;
     width: 960px;
-
-}
-
-header {
-
     text-align: left;
+
 }
+
 
 h1 {
     font-size: 1.25em;
@@ -18,13 +14,13 @@ h1 {
 
 header img {
     width: 200px;
-    height:auto;
-    
+    height: auto;
+
 }
 
 footer {
     font-size: .75em;
-    text-align: left;
+
 }
 
 header,

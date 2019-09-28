@@ -14,9 +14,9 @@ const months = [
     "December"
 ];
 
-const todaysdate = new Date();
-const monthName = months[todaysdate.getMonth()];
-const currentdate = monthName +" "+todaysdate.getDate() + ", " + todaysdate.getFullYear();
-const currentyear = todaysdate.getFullYear();
-document.getElementById('currentdate').textContent = currentdate;
-document.getElementById('currentyear').textContent= currentyear;
+const mondifiedDate = new Date(document.lastModified);
+const monthName = months[mondifiedDate.getMonth()];
+const currentdate = monthName + " " + mondifiedDate.getDate() + ", " + mondifiedDate.getFullYear();
+const currentyear = mondifiedDate.getFullYear();
+document.getElementById('currentModDate').textContent = currentdate;
+document.getElementById('currentyear').textContent = currentyear;
