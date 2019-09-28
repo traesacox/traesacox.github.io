@@ -1,0 +1,38 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8em;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(49, 160, 160);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+}
+
+section {
+    margin: 0.5rem;
+    border: 1px solid #BBBBBB;
+    padding: 0 1rem;
+    background-color: #EEEEEE;
+}
+
+h2 {
+
+    padding-top 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border-radius: 10px;
+}

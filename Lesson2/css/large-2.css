@@ -2,5 +2,9 @@
     main{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    sec3 {
+        grid-column: span 1;
+    }
     
 }
