@@ -47,6 +47,7 @@ nav li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
+	font-family: Kalam, Candara, Gadget, serif;
 	font-size: 0.95rem;
 }
 
@@ -59,11 +60,6 @@ nav a:hover {
 	color: #991216;
 }
 
-main {
-	/*	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;*/
-}
 
 .colorblocks {
 	display: grid;
@@ -111,17 +107,12 @@ p{
 #colorUse{
 	font-size:40px;
 }
-.sec1{
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	margin-bottom: 1px;
+#headfootfont{
+	font-family: 'Kalam', Candara, Gadget, serif;
 }
-.img1{
-	
-		width: 200px;
-		height: auto;
-		float: left;
-	
-	}
+
+#scenarioList{
+	font-family: 'Patrick Hand', cursive;
+}
 	
 
