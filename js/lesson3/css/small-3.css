@@ -92,8 +92,11 @@ main {
 	grid-column: span 1;
 	padding-right: 10px;
 }
-
+h1, h2, h3, h4{
+	font-family: 'Courgette', cursive;
+}
 h4 {
+	
 	text-align: center;
 }
 
@@ -101,3 +104,24 @@ div h4 {
 	grid-column: span 3;
 	padding: 10px;
 }
+p{
+	font-family:'Patrick Hand', cursive;
+	font-size: 18px;
+}
+#colorUse{
+	font-size:40px;
+}
+.sec1{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	margin-bottom: 1px;
+}
+.img1{
+	
+		width: 200px;
+		height: auto;
+		float: left;
+	
+	}
+	
+
