@@ -1,0 +1,103 @@
+header,
+footer {
+
+	font-family: 'Kalam', Candara, Gadget, serif;
+	border-radius: 5px;
+
+	background-color: #bdeac9;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+header img {
+	width: 200px;
+	height: auto;
+}
+
+img {
+	width: 175px;
+	position: relative;
+	background-color: #75E694;
+	top: 10px;
+	left: 10px;
+	border: 2px black solid;
+}
+
+nav {
+	background-color: #536658;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+	border-radius: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+
+.active {
+	color: #991216;
+}
+
+main {
+	/*	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;*/
+}
+
+.colorblocks {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin-bottom: 10px;
+}
+
+#color1 {
+	background-color: #75E694;
+	grid-column: span 1;
+	padding-right: 10px;
+}
+
+#color2 {
+	background-color: #991216;
+}
+
+#color3 {
+	background-color: #536658;
+	grid-column: span 1;
+	padding-right: 10px;
+}
+
+#color4 {
+	background-color: #BDEAC9;
+	grid-column: span 1;
+	padding-right: 10px;
+}
+
+h4 {
+	text-align: center;
+}
+
+div h4 {
+	grid-column: span 3;
+	padding: 10px;
+}
