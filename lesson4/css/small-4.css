@@ -46,7 +46,6 @@ nav{
     background-color:#536658;
     font-family:"Patrick Hand", cursive;
 
-
 }
 
 
@@ -56,25 +55,24 @@ nav{
     padding: 0;
     margin: 0;
 }
+.navigation li:first-child{
+    display: block;
+}
+navigation li{
+    display: none;
+} 
 
-.navigation li a{
-    display:blocks;
-    padding: .8rem 2%;
+.navigation  a{
+   display:block;
+    padding: 0.75rem;
     text-decoration: none;
     color:white;
     border-top:1px solid rgba(83,102,88,0.3);
+    text-align: center;
+    
     }
    
-    navigation li{
-        display: none;
-    } 
-    .navigation li:first-child{
-    display: block;
 
-}
-/*.responsive li {
-	display: block;
-}*/
 .navigation li.active a {
     background-color: rgba(83,102,88,0.2);
     color:#991216;
@@ -83,11 +81,10 @@ nav{
     background-color: rgba(83,102,88,0.4);
 }
 
-
-
 .responsive li {
 	display: block;
 }
+
 
 /*------------Clearfix: Force an Element not to Collaspe------*/
 .clearfix:after{
