@@ -59,7 +59,7 @@ nav{
     display: block;
 }
 navigation li{
-    display: none;
+    display: block;
 } 
 
 .navigation  a{
@@ -82,7 +82,7 @@ navigation li{
 }
 
 .responsive li {
-	display: block;
+	display: none;
 }
 
 
