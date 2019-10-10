@@ -1,0 +1,97 @@
+header,
+footer {
+
+	font-family: 'Kalam', Candara, Gadget, serif;
+	border-radius: 5px;
+    background-color: #bdeac9;
+}
+header{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+header img{
+    width:80px;
+    height: auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #991216;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+nav #hamberger{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color:white;
+}
+
+nav{
+    margin:0 auto;
+    max-width: 760px;
+    background-color:#536658;
+    font-family:"Patrick Hand", cursive;
+
+
+}
+
+
+.navigation{
+    list-style:none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li a{
+    display:blocks;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:white;
+    border-top:1px solid rgba(83,102,88,0.3);
+    }
+   
+    navigation li{
+        display: none;
+    } 
+    .navigation li:first-child{
+    display: block;
+
+}
+/*.responsive li {
+	display: block;
+}*/
+.navigation li.active a {
+    background-color: rgba(83,102,88,0.2);
+    color:#991216;
+}
+.navigation li a:hover{
+    background-color: rgba(83,102,88,0.4);
+}
+
+
+
+.responsive li {
+	display: block;
+}
+
+/*------------Clearfix: Force an Element not to Collaspe------*/
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
