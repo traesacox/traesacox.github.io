@@ -42,7 +42,6 @@ nav #hamberger{
 
 nav{
     margin:0 auto;
-    max-width: 760px;
     background-color:#536658;
     font-family:"Patrick Hand", cursive;
 
@@ -59,7 +58,7 @@ nav{
     display: block;
 }
 navigation li{
-    display: block;
+    display: none;
 } 
 
 .navigation  a{
@@ -82,7 +81,7 @@ navigation li{
 }
 
 .responsive li {
-	display: none;
+	display: block;
 }
 
 

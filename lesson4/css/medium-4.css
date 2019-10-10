@@ -12,7 +12,7 @@ header img {
 }
 .navigation{
     display: flex;
-    margin-left: 2%;
+    justify-content: space-around;
 }
 .navigation li:first-child{
     display: none;
