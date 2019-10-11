@@ -10,7 +10,7 @@ header img {
     font-size:large;
     margin-left: 17px;
 }
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-around;
 }
@@ -18,9 +18,11 @@ header img {
     display: none;
 }
 
-.navigation li {
-    display: block;
-    flex:1 1 100%
+/*.navigation li {
+    display: block;*/
+   /* flex:1 1 100%*/
+
+    
 }
 .navigation li a{
     border: none;

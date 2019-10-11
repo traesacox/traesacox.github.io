@@ -1,93 +1,106 @@
 header,
 footer {
 
-	font-family: 'Kalam', Candara, Gadget, serif;
-	border-radius: 5px;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    border-radius: 5px;
     background-color: #bdeac9;
 }
-header{
+
+header {
     padding: 5px 0;
     display: flex;
     align-items: center;
     align-content: center;
 }
-header img{
-    width:80px;
+
+header img {
+    width: 80px;
     height: auto;
 }
+
 .headings {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
 }
 
 .motto {
-	font-style: italic;
-	letter-spacing: 1pt;
-	color: #991216;
-	margin-left: 20px;
-	font-size: .9rem;
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #991216;
+    margin-left: 20px;
+    font-size: .9rem;
 }
-nav #hamberger{
+
+nav #hamberger {
     margin: .2rem 2%;
     background-color: transparent;
-    border:none;
+    border: none;
     font-size: 1.6rem;
-    color:white;
+    color: white;
 }
 
-nav{
-    margin:0 auto;
-    background-color:#536658;
-    font-family:"Patrick Hand", cursive;
+nav {
+    margin: 0 auto;
+    background-color: #536658;
+    font-family: "Patrick Hand", cursive;
+    line-height: 1.75;
 
 }
 
 
-.navigation{
-    list-style:none;
+.navigation {
+    list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-.navigation li:first-child{
+
+.navigation li:first-child {
     display: block;
 }
-navigation li{
-    display: none;
-} 
 
-.navigation  a{
-   display:block;
+.navigation li {
+    display: none;
+}
+
+.navigation a {
     padding: 0.75rem;
     text-decoration: none;
-    color:white;
-    border-top:1px solid rgba(83,102,88,0.3);
+    color: white;
+    border-top: 1px solid rgba(83, 102, 88, 0.3);
     text-align: center;
-    
-    }
-   
 
-.navigation li.active a {
-    background-color: rgba(83,102,88,0.2);
-    color:#991216;
 }
-.navigation li a:hover{
-    background-color: rgba(83,102,88,0.4);
+
+
+.navigation li a:active {
+    background-color: rgba(83, 102, 88, 0.2);
+    color: #991216;
+}
+
+.navigation li a:hover {
+    background-color: rgba(83, 102, 88, 0.4);
 }
 
 .responsive li {
-	display: block;
+    display: block;
 }
-
+ .contentBox{
+     display: block;
+     margin 10px auto;
+     background-color: rgba(83,102,88,0.1);
+     padding: 15px;
+     border: 1px dashed #991216;
+ }
 
 /*------------Clearfix: Force an Element not to Collaspe------*/
-.clearfix:after{
-    content:"";
+.clearfix:after {
+    content: "";
     display: table;
     clear: both;
 }
