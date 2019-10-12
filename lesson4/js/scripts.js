@@ -30,8 +30,8 @@ const ModfiedDate = new Date(Document.lastModified);
 let todayDate = new Date();
 let dayName = daynames[todayDate.getDay()];
 let monthName = months[todayDate.getMonth()];
-const currentdate = dayName + ", " + monthName + " " + todayDate.getDate() + ", " + todayDate.getFullYear();
+const currentdate = dayName + ", " + todayDate.getDate() + " " + monthName + " " + todayDate.getFullYear();
 let currentyear = todayDate.getFullYear();
 document.getElementById('currentModDate').textContent = currentdate;
-/*currentdate;*/
+
 document.getElementById('currentyear').textContent = currentyear;
