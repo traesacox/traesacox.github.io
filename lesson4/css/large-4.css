@@ -1,9 +1,16 @@
 @media only screen and (min-width: 64em) {
 
-navigation li a{
-    padding: .6rem 1rem;
-    
-}
+    navigation li a {
+        padding: .6rem 1rem;
 
+    }
+
+    main div {
+        margin: 15px 25px;
+    }
+
+    footer {
+        margin: 15px 25px;
+    }
 
 }

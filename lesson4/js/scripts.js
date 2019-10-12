@@ -1,9 +1,18 @@
-function toggleMenu(){
+function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
-
+//Weekday names array
+let daynames = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+];
 //long month names array
-const months = [
+let months = [
     "January",
     "February",
     "March",
@@ -17,10 +26,12 @@ const months = [
     "November",
     "December"
 ];
-
-const mondifiedDate = new Date(document.lastModified);
-const monthName = months[mondifiedDate.getMonth()];
-const currentdate = monthName +" "+mondifiedDate.getDate() + ", " + mondifiedDate.getFullYear();
-const currentyear = mondifiedDate.getFullYear();
+const ModfiedDate = new Date(Document.lastModified);
+let todayDate = new Date();
+let dayName = daynames[todayDate.getDay()];
+let monthName = months[todayDate.getMonth()];
+const currentdate = dayName + ", " + monthName + " " + todayDate.getDate() + ", " + todayDate.getFullYear();
+let currentyear = todayDate.getFullYear();
 document.getElementById('currentModDate').textContent = currentdate;
-document.getElementById('currentyear').textContent= currentyear;
+/*currentdate;*/
+document.getElementById('currentyear').textContent = currentyear;
