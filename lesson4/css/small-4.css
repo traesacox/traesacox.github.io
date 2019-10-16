@@ -110,6 +110,34 @@ footer {
     padding: 1rem;
 }
 
+/*-----------------------------Main Part of Page-------------------------*/
+h1{
+    text-align: center;
+    font-family:'Kalam', Candara, Gadget, serif;
+    font-size:2.5rem;
+    color: rgb(83, 102, 88);
+    text-shadow:3px 3px 5px rgba(83, 102, 88, 0.3);
+}
+.heroSection{
+    margin: 10px auto;
+    position: relative;
+} 
+
+.heroSection img{
+    width:1200px auto;
+}
+
+.weatherSummary{
+    position: absolute;
+	top: 5px;
+	left: 30px;
+	background: radial-gradient(#eee, rgb(117, 230, 148));
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+
 /*------------Clearfix: Force an Element not to Collaspe------*/
 .clearfix:after {
     content: "";
