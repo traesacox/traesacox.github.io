@@ -1,0 +1,41 @@
+@media only screen and (min-width: 36.5em) {
+    header img {
+        width: 128px;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: large;
+        margin-left: 17px;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+
+
+    }
+
+    .navigation li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+}
