@@ -38,4 +38,33 @@
         display: none;
     }
 
+    /*Forecast Box*/
+    .forecastWrapper {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .contentBox h2 {
+        width:60%;
+        font-family: "Patrick Hand", cursive;
+        text-align: center;
+        text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
+        color: #991216;
+    }
+
+    .days {
+        font-family: 'Kalam', Candara, Gadget, serif;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        background-color: #bdeac9;
+        padding: 10px;
+        border: 1px black;
+        Text-align: center;
+
+    }
+}
+
 }
