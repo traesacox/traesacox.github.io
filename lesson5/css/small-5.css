@@ -100,10 +100,11 @@ li .active {
 .contentBox {
     display: block;
     margin: 15px 25px;
-    background-color: rgba(83, 102, 88, 0.1);
+   /* background-color: rgba(83, 102, 88, 0.1);*/
     padding: 15px;
     border: 1px dashed #991216;
 }
+
 
 footer {
     text-align: center;
@@ -138,27 +139,17 @@ h1{
 	box-shadow: 0 0 30px #111;
     opacity: .8;
 }
-    /*display: grid;
-   /* grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: 75px 75px 75px 75px 75px 75px;
-    grid-gap: 10px;
+.contentBoxForecast{
+    display:none;
 }
-
-#summaryTitel{
-    grid-column:1/2;
-    grid-row: 1;
-}
-.summaryLabel{
-    grid-column: 1;
-}
-*/
 .results{
     color:#991216;
 }
 
 .articleImage{
-    width:35%;
+    width:45%;
     float: top;
+    align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 30px #111;
 

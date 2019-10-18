@@ -39,6 +39,18 @@
     }
 
     /*Forecast Box*/
+    .contentBoxForecast{
+        display:block;
+        margin: 25px 25px;
+        padding: 15px;
+        align-content: center;
+    }
+
+    .contentBoxForecast h2{ font-family: "Patrick Hand", cursive;
+        text-align: center;
+        text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
+        color: #991216;}
+
     .forecastWrapper {
         width: 60%;
         display: grid;
@@ -58,19 +70,23 @@
     .days {
         font-family: 'Kalam', Candara, Gadget, serif;
         font-size: 1.5rem;
-        border-radius: 5px;
         background-color: #bdeac9;
-        padding: 10px;
-        border: 10px black;
-        Text-align: center;
+        padding: 2px;
+        border: 2px solid black;
+        Text-align: center;        
 
     }
 .details{
-    border: 1px black;
-    Text-align: center;  
+    border: 2px solid black;
+    Text-align: center; 
+    grid-row:2/3;
+}
+.details img{
+    width:50%;
 }
 .articleImage{
-    width:55%;
+    width:25%;
     float: right;
+    
 }
 }
