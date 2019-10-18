@@ -156,6 +156,13 @@ h1{
     color:#991216;
 }
 
+.articleImage{
+    width:35%;
+    float: top;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #111;
+
+}
 /*------------Clearfix: Force an Element not to Collaspe------*/
 .clearfix:after {
     content: "";

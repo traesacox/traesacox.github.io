@@ -61,10 +61,16 @@
         border-radius: 5px;
         background-color: #bdeac9;
         padding: 10px;
-        border: 1px black;
+        border: 10px black;
         Text-align: center;
 
     }
+.details{
+    border: 1px black;
+    Text-align: center;  
 }
-
+.articleImage{
+    width:55%;
+    float: right;
+}
 }
