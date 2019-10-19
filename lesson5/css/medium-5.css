@@ -75,13 +75,15 @@
         background-color: #bdeac9;
         padding: 2px;
         border: 2px solid black;
-        Text-align: center;        
+        Text-align: center; 
+        margin:0px;       
 
     }
 .details{
     border: 2px solid black;
     Text-align: center; 
     grid-row:2/3;
+    margin:0px;
 }
 .details img{
     width:50%;
@@ -94,12 +96,13 @@
 }
 .contactInfo{
     text-align-last: right;
+    display: flex;
 }
 .prestonMap {
     width:30%;
-    /*display: flex;*/
+    display: block;
     float: left;
-    /*align-items: center;*/
+    align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 30px #111;
 
