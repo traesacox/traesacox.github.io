@@ -39,24 +39,26 @@
     }
 
     /*Forecast Box*/
-    .contentBoxForecast{
-        display:block;
+    .contentBoxForecast {
+        display: block;
         /*margin: 5px 5px 5px 50px;*/
         align-content: center;
-        
+
     }
 
-    .contentBoxForecast h2{ font-family: "Patrick Hand", cursive;
+    .contentBoxForecast h2 {
+        font-family: "Patrick Hand", cursive;
         text-align: center;
         text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
-        color: #991216;}
+        color: #991216;
+    }
 
     .forecastWrapper {
         /*width: 60%;*/
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        justify-self:center;
-        margin:auto;
+        justify-self: center;
+        margin: auto;
 
     }
 
@@ -74,40 +76,47 @@
         background-color: #bdeac9;
         padding: 5px;
         border: 2px solid black;
-        Text-align: center; 
-        margin:0px;       
+        Text-align: center;
+        margin: 0px;
 
     }
-.details{
-    border: 2px solid black;
-    Text-align: center; 
-    grid-row:2/3;
-    margin:0px;
-}
-.details img{
-    width:50%;
-}
-.articleImage{
-    width:25%;
-    float: right;
-    padding: 5px;
-    
-}
-.contactInfo{
-    display: flex;
-}
-.contactInfo span{
-    padding-left: 15px;
-}
-.contactInfo h4{
-    text-align: center;
-}
-.prestonMap {
-    width:30%;
-    display: block;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 0 30px #111;
 
-}
+    .details {
+        border: 2px solid black;
+        Text-align: center;
+        grid-row: 2/3;
+        margin: 0px;
+    }
+
+    .details img {
+        width: 50%;
+    }
+
+    .articleImage {
+        width: 25%;
+        float: right;
+        padding: 5px;
+
+    }
+
+    .contactInfo {
+        display: flex;
+    }
+
+    .contactInfo span {
+        padding-left: 15px;
+    }
+
+    .contactInfo h4 {
+        text-align: center;
+    }
+
+    .prestonMap {
+        width: 30%;
+        display: block;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #111;
+
+    }
 }

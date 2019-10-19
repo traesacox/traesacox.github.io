@@ -100,6 +100,7 @@ li .active {
 .announcement {
     display: none;
 }
+
 .showNow {
     display: block;
 }
@@ -121,10 +122,11 @@ footer {
 }
 
 /*-----------------------------Main Part of Page-------------------------*/
-main{
+main {
     max-width: 1000px;
-    margin:auto;
+    margin: auto;
 }
+
 h1 {
     text-align: center;
     font-family: 'Kalam', Candara, Gadget, serif;
@@ -197,7 +199,7 @@ h1 {
     font-family: 'Kalam', Candara, Gadget, serif;
     text-align: center;
     padding: 10px;
-    clear:both;
+    clear: both;
 }
 
 .contactInfo h2 {
@@ -212,8 +214,9 @@ h1 {
     padding: 5px;
 
 }
-.footerElements{
-    clear:both;
+
+.footerElements {
+    clear: both;
 }
 
 /*------------Clearfix: Force an Element not to Collaspe------*/
