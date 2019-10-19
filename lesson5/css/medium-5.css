@@ -94,14 +94,17 @@
     
 }
 .contactInfo{
-    text-align-last: right;
     display: flex;
+}
+.contactInfo span{
     padding-left: 15px;
+}
+.contactInfo h4{
+    text-align: center;
 }
 .prestonMap {
     width:30%;
     display: block;
-    float: left;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 30px #111;
