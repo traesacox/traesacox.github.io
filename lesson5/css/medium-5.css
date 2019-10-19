@@ -52,16 +52,17 @@
         color: #991216;}
 
     .forecastWrapper {
-        width: 60%;
+        /*width: 60%;*/
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-rows: 1fr 1fr 1fr;
-        align-content: space-evenly;
+        grid-template-rows: 1fr 1fr;
+        justify-self:center;
+        margin:auto;
 
     }
 
     .contentBox h2 {
-        width:60%;
+        /*width:60%;*/
         font-family: "Patrick Hand", cursive;
         text-align: center;
         text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
@@ -96,9 +97,9 @@
 }
 .prestonMap {
     width:30%;
-    display: flex;
+    /*display: flex;*/
     float: left;
-    align-items: center;
+    /*align-items: center;*/
     border-radius: 10px;
     box-shadow: 0 0 30px #111;
 
