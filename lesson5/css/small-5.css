@@ -173,6 +173,7 @@ h1{
 .contactInfo{
     font-family:'Kalam', Candara, Gadget, serif;
     text-align: center;
+    padding:10px;
 }
 .contactInfo h2{
     color:#991216;
