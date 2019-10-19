@@ -1,6 +1,7 @@
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
 //Weekday names array
 let daynames = [
     "Sunday",
@@ -35,3 +36,9 @@ let currentyear = todayDate.getFullYear();
 document.getElementById('currentModDate').textContent = currentdate;
 
 document.getElementById('currentyear').textContent = currentyear;
+
+function showAnnouncement(){
+document.getElementsByClassName('showAnnouncement').textContent = currentyear;
+(todayDate.getDay()==5) ? document.getElementsByClassName('showAnnouncement').style.display ="block":announcement.style.display ="none";
+  }
+

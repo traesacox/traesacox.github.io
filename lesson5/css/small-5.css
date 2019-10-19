@@ -100,7 +100,7 @@ li .active {
 .contentBox {
     display: block;
     margin: 15px 25px;
-   /* background-color: rgba(83, 102, 88, 0.1);*/
+    background-color: rgba(83, 102, 88, 0.6);
     padding: 15px;
     border: 1px dashed #991216;
 }
@@ -152,6 +152,25 @@ h1{
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 30px #111;
+
+}
+.prestonMap{
+    display: none;
+}
+
+.contentBox p{
+    padding:5px;
+    font-family:'Patrick Hand', cursive;
+
+}
+.contactInfo{
+    text-align-last: right;
+}
+
+.announcement{
+    background-color:yellow;
+    text-align:center;
+    padding:5px;
 
 }
 /*------------Clearfix: Force an Element not to Collaspe------*/
