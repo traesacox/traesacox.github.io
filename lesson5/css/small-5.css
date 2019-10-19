@@ -177,8 +177,9 @@ h1 {
     width: 45%;
     float: top;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 0 30px #111;
+    border: 1px solid white;
+    border-radius: 10px white;
+    box-shadow: 0 0 30px white;
 
 }
 

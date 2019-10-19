@@ -41,7 +41,7 @@
     /*Forecast Box*/
     .contentBoxForecast{
         display:block;
-        margin: 5px 5px 5px 50px;
+        /*margin: 5px 5px 5px 50px;*/
         align-content: center;
         
     }
@@ -55,7 +55,6 @@
         /*width: 60%;*/
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-rows: 1fr 1fr;
         justify-self:center;
         margin:auto;
 
@@ -73,7 +72,7 @@
         font-family: 'Kalam', Candara, Gadget, serif;
         font-size: 1.5rem;
         background-color: #bdeac9;
-        padding: 2px;
+        padding: 5px;
         border: 2px solid black;
         Text-align: center; 
         margin:0px;       
@@ -97,6 +96,7 @@
 .contactInfo{
     text-align-last: right;
     display: flex;
+    padding-left: 15px;
 }
 .prestonMap {
     width:30%;

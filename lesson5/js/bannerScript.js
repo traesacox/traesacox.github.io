@@ -1,4 +1,4 @@
-if(todayDate.getDay()==6)
+if(todayDate.getDay()==5)
 {
     document.getElementsByClassName("announcement")[0].classList.add("showNow");   
 }
