@@ -92,7 +92,7 @@
     
 }
 .contactInfo{
-align-content: center;
+    text-align-last: right;
 }
 .prestonMap {
     width:30%;

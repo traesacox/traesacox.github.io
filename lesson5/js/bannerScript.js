@@ -1,0 +1,2 @@
+document.getElementsByClassName("showAnnouncement")[0].classList.(todayDate.getDay()==6) ?("showNow"):("NoShow");
+/*(todayDate.getDay()==5) ? document.getElementsByClassName('showAnnouncement').style.display ="block":announcement.style.display ="none";*/
