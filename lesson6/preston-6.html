@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Whether to go Out - Preston Page</title>
+    <meta name="description" content="Preston Page for the Whether To Go Out Site">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam%7cPatrick+Hand%7cCourgette&display=swap" rel="stylesheet">
+    <link href="css/small-6.css" rel="stylesheet">
+    <link href="css/medium-6.css" rel="stylesheet">
+    <link href="css/large-6.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="announcement">
+        <h2>Saturday = Preston Pancakes in the Park!
+            9 AM Saturday at the city park.</h2>
+    </div>
+    <header>
+        <img src="./images/ilogoMyWeatherToGoOut.png" alt="Picture of logo">
+        <section class="headings">
+            <h1>Whether To Go Out</h1>
+            <div class="motto">Weather to plan adventures by</div>
+
+        </section>
+
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a id=hamberger href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="./preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+        <div class="heroSection">
+            <picture class="heroImg">
+                <source media= "(max-width = 770px)" srcset = "images/cit230assignedImg500.jpg" />
+                <source media= "(max-width = 990px)" srcset = "images/cit230assignedImg800.jpg" />
+                <img id = "heroPic" src= "images/cit230assignedImg.jpg" alt="Picture for Week 6"/>
+            </picture>
+            <div class="picSizeLabel">
+                <h2 id=sizeLarge>Large</h2>
+                <h2 id=sizeMedium>Medium</h2>
+                <h2 id=sizeSmall>Small</h2>
+            </div>
+
+            <div class="weatherSummary">
+                <h2 id="summaryTitle">Weather Summary</h2>
+                <hr>
+
+                <div class="summaryLabel"><b>Current: </b><span class="results"><span id = "weatherDesc">Sunny</span></span> </div>
+                <div class="summaryLabel"><b>High: </b><span class="results"><span id="currtemp">76 </span>&#186;F</span> </div>
+                <div class="summaryLabel"><b>Wind Chill: </b><span class="results"> </span></div>
+                <div class="summaryLabel"><b>Humidity: </b><span class="results"><span id="currHumidity">69%</span> </span></div>
+                <div class="summaryLabel"><b>Wind Speed: </b><span class="results"><span id="currWindSpeed">5 </span>mph</span> </div>
+                <span id="currWindChill">&#186;F</span>
+            </div>
+
+        </div>
+        <div class="contentBoxForecast">
+            <h2>5 day Forecast</h2>
+            <section class="forecastWrapper">
+                <div class="days">Mon</div>
+                <div class="days">Tue</div>
+                <div class="days">Wed</div>
+                <div class="days">Thu</div>
+                <div class="days">Fri</div>
+                <div class="details" id="monPic"><img src="images/sunnyIcon.png" alt="Sunny icon"><br>76 &#186;F</div>
+                <div class="details" id="tuesPic"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>72&#186;F
+                </div>
+                <div class="details" id="wedPic"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>71&#186;F
+                </div>
+                <div class="details" id="thuPic"><img src="images/rainIcon.png" alt="Sunny icon"><br>64&#186;F</div>
+                <div class="details" id="friPic"><img src="images/thunderStormIcon.png" alt="Sunny icon"><br>56&#186;F
+                </div>
+
+            </section>
+        </div>
+
+
+        <div class="contentBox">
+            <img Class="articleImage" src="images/PicturePerfectOptimz.jpg" alt="Man with Camera by water">
+            <h2>Picture Perfect - The Outdoor sport of getting the best shot!</h2>
+            <h5>by: Josh Smittleton</h5>
+            <p>This is an article about how photography has beeen then new sport of outdoor enthusiast. Idaho with its
+                prestine landscape and magnificent natural features makes it a wonderful location to enjoy this new
+                sport of shoot. Then there is a bunch of othe information in this article that makes it intersting and
+                fills in the page. This is just filler text at the moment to get the formatting correct and reflect what
+                the page might look like if there were a entire intersting article here.</p>
+            <p>Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                erat volutpat.</p>
+        </div>
+        <div class="contactInfo">
+            <img class="prestonMap" src="images/PrestonMap.jpg" alt="Map of Preston">
+            <div>
+                <h2>Whether To Go Out</h2>
+                <h4>12345 Main Street<br>Preston, Id 83263<br>&phone;555-800-5454<br><a
+                        href="http://WhetherToGoOut.com">www.WhetherToGoOut.com</a></h4>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footerElements">
+            &copy; <span id="currentyear"></span> | Whether To Go Out | Traesa M. Titel | <a
+                href="https://www.byui.edu/online">BYUI Online</a>
+            <div><span id="currentModDate"></span></div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/bannerScript.js"></script>
+    <script src="js/calcWindchill.js"></script>
+</body>
+
+</html>
