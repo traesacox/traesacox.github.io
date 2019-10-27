@@ -38,20 +38,22 @@
         display: none;
     }
 
-    main .heroSection .picSizeLabel{
+    main .heroSection .picSizeLabel {
         top: 5px;
         left: 530px;
-            
-    }
-    .picSizeLabel #sizeLarge{
-        display:none;
-    }
-    .picSizeLabel #sizeMedium{
-        display:block;
+
     }
 
-    .picSizeLabel #sizeSmall{
-        display:none;
+    .picSizeLabel #sizeLarge {
+        display: none;
+    }
+
+    .picSizeLabel #sizeMedium {
+        display: block;
+    }
+
+    .picSizeLabel #sizeSmall {
+        display: none;
     }
 
     /*Forecast Box*/

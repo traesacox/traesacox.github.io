@@ -5,20 +5,22 @@
         white-space: nowrap;
     }
 
-    main .heroSection .picSizeLabel{
+    main .heroSection .picSizeLabel {
         top: 5px;
         left: 830px;
-            
-    }
-    .picSizeLabel #sizeLarge{
-        display:block;
-    }
-    .picSizeLabel #sizeMedium{
-        display:none;
+
     }
 
-    .picSizeLabel #sizeSmall{
-        display:none;
+    .picSizeLabel #sizeLarge {
+        display: block;
+    }
+
+    .picSizeLabel #sizeMedium {
+        display: none;
+    }
+
+    .picSizeLabel #sizeSmall {
+        display: none;
     }
 
     footer {

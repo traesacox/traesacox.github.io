@@ -144,29 +144,31 @@ h1 {
     width: 100%;
 }*/
 
-main picture.heroImg{
-    width:100%;
-    margin:0;
+main picture.heroImg {
+    width: 100%;
+    margin: 0;
 }
 
-main picture.heroImg #heroPic{
-    width:100%;
+main picture.heroImg #heroPic {
+    width: 100%;
 }
 
-main .heroSection .picSizeLabel{
+main .heroSection .picSizeLabel {
     position: absolute;
     top: 5px;
     left: 330px;
     font-family: 'Kalam', serif;
     color: Red;
     font-size: 1.5em;
-    
+
 }
-.picSizeLabel #sizeLarge{
-    display:none;
+
+.picSizeLabel #sizeLarge {
+    display: none;
 }
-.picSizeLabel #sizeMedium{
-    display:none;
+
+.picSizeLabel #sizeMedium {
+    display: none;
 }
 
 .weatherSummary {
