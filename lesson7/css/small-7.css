@@ -1,0 +1,266 @@
+header,
+footer {
+
+    font-family: 'Kalam', Candara, Gadget, serif;
+    border-radius: 5px;
+    background-color: #bdeac9;
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #991216;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+nav #hamberger {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #536658;
+    font-family: "Patrick Hand", cursive;
+    line-height: 1.75;
+
+}
+
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(83, 102, 88, 0.3);
+    text-align: center;
+    font-size: 1.2em;
+    white-space: nowrap;
+
+}
+
+
+li .active {
+    background-color: rgba(83, 102, 88, 0.1);
+    color: #991216;
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    background-color: rgb(117, 230, 148);
+    color: rgb(83, 102, 88);
+}
+
+.responsive li {
+    display: block;
+}
+
+.announcement {
+    display: none;
+}
+
+.showNow {
+    display: block;
+}
+
+
+
+.contentBox {
+    display: block;
+    margin: 15px 25px;
+    background-color: rgba(83, 102, 88, 0.6);
+    padding: 15px;
+    border: 1px dashed #991216;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/*-----------------------------Main Part of Page-------------------------*/
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    font-size: 2.5rem;
+    color: rgb(83, 102, 88);
+    text-shadow: 3px 3px 5px rgba(83, 102, 88, 0.3);
+}
+
+.heroSection {
+    /*margin: 10px auto;*/
+    position: relative;
+}
+
+/*#heroPic {
+    width: 100%;
+}*/
+
+main picture.heroImg {
+    width: 100%;
+    margin: 0;
+}
+
+main picture.heroImg #heroPic {
+    width: 100%;
+}
+
+main .heroSection .picSizeLabel {
+    position: absolute;
+    top: 5px;
+    left: 330px;
+    font-family: 'Kalam', serif;
+    color: Red;
+    font-size: 1.5em;
+
+}
+
+.picSizeLabel #sizeLarge {
+    display: none;
+}
+
+.picSizeLabel #sizeMedium {
+    display: none;
+}
+
+.weatherSummary {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background: radial-gradient(#eee, rgb(117, 230, 148));
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    font-family: 'Courgarette', Candara, Gadget, serif;
+}
+
+.weatherSummary h2 {
+    color: #991216;
+}
+
+.summaryLabel {
+    justify-content: right;
+}
+
+.contentBoxForecast {
+    display: none;
+}
+
+.results {
+    color: #991216;
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.articleImage {
+    width: 45%;
+    float: top;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10pxsss;
+    box-shadow: 0 0 30px white;
+
+}
+
+.prestonMap {
+    display: none;
+}
+
+.contentBox p {
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.contactInfo {
+    font-family: 'Kalam', Candara, Gadget, serif;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+.contactInfo h2 {
+    color: #991216;
+    text-decoration: underline;
+
+}
+
+.announcement {
+    background-color: yellow;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.footerElements {
+    clear: both;
+}
+
+/*------------Clearfix: Force an Element not to Collaspe------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------------------------LazyLoadImgs------------------------------*/
+.makeGrid{
+    
+    justify-content: center;
+    text-align:center;
+    display:grid;
+    grid-auto-columns: 400px;
+
+}
+.makeGrid h1{
+    font-size: 2em;
+}
