@@ -253,14 +253,25 @@ main .heroSection .picSizeLabel {
 }
 
 /*----------------------------LazyLoadImgs------------------------------*/
-.makeGrid{
-    
+.makeGrid {
+
     justify-content: center;
-    text-align:center;
-    display:grid;
+    text-align: center;
+    display: grid;
     grid-auto-columns: 400px;
 
 }
-.makeGrid h1{
+
+.makeGrid h1 {
     font-size: 2em;
+}
+
+.makeGrid img[data-src] {
+    filter: blur(0.2em);
+}
+
+.makeGrid img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+
 }

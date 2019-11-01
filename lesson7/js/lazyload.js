@@ -1,3 +1,4 @@
+
 const images = document.querySelectorAll("[data-src]");
 const imgOptions = {
     threshhold:0,
@@ -30,4 +31,5 @@ function preloadImage(img)
     {return;}
 
     img.src=src;
+    img.removeAttribute("data-src");
 }
