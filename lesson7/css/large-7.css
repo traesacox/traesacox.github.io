@@ -26,5 +26,10 @@
     footer {
         margin: 15px 25px;
     }
+/*----------------------------------Gallery-----------------------------------------*/
+.galleryGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;   
+}
 
 }

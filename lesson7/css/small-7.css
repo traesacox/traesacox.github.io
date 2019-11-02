@@ -259,6 +259,7 @@ main .heroSection .picSizeLabel {
     text-align: center;
     display: grid;
     grid-auto-columns: 400px;
+    
 
 }
 
@@ -273,5 +274,33 @@ main .heroSection .picSizeLabel {
 .makeGrid img {
     filter: blur(0em);
     transition: filter 0.5s;
+
+}
+/*-------------------------Gallery------------------------------------------*/
+.galleryGrid {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    justify-content: center;
+    text-align: center;  
+}
+.galleryGrid img[data-src] {
+    filter: blur(0.2em);
+}
+
+.galleryGrid img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+
+}
+figcaption{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size:1.5em;
+}
+.imgblock:hover {
+    box-shadow: 0 0 50px #536658;
 
 }
