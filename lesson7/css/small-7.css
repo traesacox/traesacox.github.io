@@ -277,6 +277,11 @@ main .heroSection .picSizeLabel {
 
 }
 /*-------------------------Gallery------------------------------------------*/
+
+#galleryHeading{
+    font-family: 'Kalam', Candara, Gadget, serif;
+    text-align: center;
+}
 .galleryGrid {
     align-content: center;
     display: grid;
