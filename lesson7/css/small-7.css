@@ -274,6 +274,8 @@ main .heroSection .picSizeLabel {
 .makeGrid img {
     filter: blur(0em);
     transition: filter 0.5s;
+    width:auto;
+    height:100%;
 
 }
 /*-------------------------Gallery------------------------------------------*/

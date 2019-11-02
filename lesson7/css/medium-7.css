@@ -72,7 +72,7 @@
     }
 
     .forecastWrapper {
-        /*width: 60%;*/
+        width: 60%;
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
         justify-self: center;
@@ -81,7 +81,7 @@
     }
 
     .contentBox h2 {
-        /*width:60%;*/
+       /* width:60%;*/
         font-family: "Patrick Hand", cursive;
         text-align: center;
         text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
@@ -119,9 +119,11 @@
 
     .contactInfo {
         display: flex;
+        justify-content: center;
     }
 
-    .contactInfo span {
+    .contactInfo div {
+        
         padding-left: 15px;
     }
 
