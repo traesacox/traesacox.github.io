@@ -163,13 +163,6 @@ main .heroSection .picSizeLabel {
 
 }
 
-.picSizeLabel #sizeLarge {
-    display: none;
-}
-
-.picSizeLabel #sizeMedium {
-    display: none;
-}
 
 .weatherSummary {
     position: absolute;

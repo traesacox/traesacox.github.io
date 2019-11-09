@@ -11,17 +11,6 @@
 
     }
 
-    .picSizeLabel #sizeLarge {
-        display: block;
-    }
-
-    .picSizeLabel #sizeMedium {
-        display: none;
-    }
-
-    .picSizeLabel #sizeSmall {
-        display: none;
-    }
 
     footer {
         margin: 15px 25px;

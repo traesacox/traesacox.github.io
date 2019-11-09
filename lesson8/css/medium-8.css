@@ -44,18 +44,6 @@
 
     }
 
-    .picSizeLabel #sizeLarge {
-        display: none;
-    }
-
-    .picSizeLabel #sizeMedium {
-        display: block;
-    }
-
-    .picSizeLabel #sizeSmall {
-        display: none;
-    }
-
     /*Forecast Box*/
     .contentBoxForecast {
         display: block;
