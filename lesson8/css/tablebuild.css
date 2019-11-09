@@ -1,47 +1,54 @@
-
-
-table{
+table {
     border-spacing: 0;
     box-shadow: 5px 5px blur 20 #628ca6;
 }
-table th, td{
+
+table th,
+td {
     border: 1px solid gray;
     border-collapse: collapse;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
-th,td{
-    text-align:center;
+
+th,
+td {
+    text-align: center;
     padding: 5px;
-    
-    
-}
-caption{
-    background-color:#7fb9c2;
-    font-size:1.25em;
-    text-align:center;
-}
-th{
-    color:white;
-    background-color:#628ca6;
+
+
 }
 
-tbody tr{
-    background-color:#e7ffed;
-}
-tbody tr:nth-child(even){
-    background-color:#e7f0ed;
-}
-#metGoal{
-    background-color:#628ca6;
-    color:white;
-}
-tfoot tr{
-    background-color:#7fb9c2;
-    font-size:.6em;
-    padding:15px;
+caption {
+    background-color: #7fb9c2;
+    font-size: 1.25em;
+    text-align: center;
 }
 
-span{
+th {
+    color: white;
+    background-color: #628ca6;
+}
+
+tbody tr {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+#metGoal {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot tr {
+    background-color: #7fb9c2;
+    font-size: .6em;
+    padding: 15px;
+}
+
+span {
     font-style: italic;
 }

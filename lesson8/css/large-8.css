@@ -26,13 +26,15 @@
     footer {
         margin: 15px 25px;
     }
-/*----------------------------------Gallery-----------------------------------------*/
-.galleryGrid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:10px;   
-}
-.galleryItem {
-    box-shadow: 0 0 30px grey;
-}
+
+    /*----------------------------------Gallery-----------------------------------------*/
+    .galleryGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .galleryItem {
+        box-shadow: 0 0 30px grey;
+    }
 
 }

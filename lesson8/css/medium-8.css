@@ -81,7 +81,7 @@
     }
 
     .contentBox h2 {
-       /* width:60%;*/
+        /* width:60%;*/
         font-family: "Patrick Hand", cursive;
         text-align: center;
         text-shadow: 3px 3px 3px rgba(83, 102, 88, 0.3);
@@ -123,7 +123,7 @@
     }
 
     .contactInfo div {
-        
+
         padding-left: 15px;
     }
 
@@ -139,8 +139,9 @@
         box-shadow: 0 0 30px #111;
 
     }
-/*----------------------------------Gallery-----------------------------------------*/
-.galleryGrid {
-    grid-template-columns: 1fr 1fr;   
-}
+
+    /*----------------------------------Gallery-----------------------------------------*/
+    .galleryGrid {
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -244,90 +244,95 @@ main .heroSection .picSizeLabel {
 .footerElements {
     clear: both;
 }
+
 /*----------------------Form Styling---------------------------------*/
 
-form fieldset{
-    margin:2rem 0;
+form fieldset {
+    margin: 2rem 0;
     border: 1px solid #536658;
     border-radius: 10px;
     padding: .5rem 2%;
 
 }
 
-form legend{
+form legend {
     color: #536658;
     margin: 0 1rem;
-    padding:0 .5rem;
+    padding: 0 .5rem;
 }
-form label.top{
+
+form label.top {
     display: block;
     padding-top: 1rem;
-    color:#991216;
+    color: #991216;
     font-size: 1rem;
     font-family: 'Patrick Hand', cursive;
 }
-form label.top input, formlabel.top select{
-    -webkit-appearnce:none;
-    display:block;
+
+form label.top input,
+formlabel.top select {
+    -webkit-appearnce: none;
+    display: block;
     font-size: 1rem;
-    border:solid 1px #999;
+    border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
     color: #536658;
-    width:100%;
-    max-width:20rem;
+    width: 100%;
+    max-width: 20rem;
     background-color: rgba(83, 102, 88, 0.1);
     font-family: 'Kalam', Candara, Gadget, serif;
 }
 
-form label.sbs{
+form label.sbs {
     display: flex;
     align-items: center;
     padding: .75rem .75rem;
-    color:#991216;
+    color: #991216;
     font-size: 1rem;
     font-family: 'Patrick Hand', cursive;
 }
 
 
-form input.submitBtn{
-    border:none;
-    background-color:#991216;
-    color:white;
+form input.submitBtn {
+    border: none;
+    background-color: #991216;
+    color: white;
     border-radius: 1rem;
     padding: .75rem 1rem;
     margin: 0 0 2rem 2%;
-    width:96%;
+    width: 96%;
     max-width: 20rem;
 }
 
-form label.top input:required{
+form label.top input:required {
     border-left: red solid 6px;
-    
+
 }
 
-form label.top input:required:valid{
-    border-left:green solid 6px;
-}
-radio{
-    display:block;
+form label.top input:required:valid {
+    border-left: green solid 6px;
 }
 
-.select{
-    display:block;
-    height:2rem;
+radio {
+    display: block;
 }
 
-textarea{
+.select {
+    display: block;
+    height: 2rem;
+}
+
+textarea {
     width: 100%;
     height: 8em;
 }
 
 
-.flexly{
-    display:flex;
+.flexly {
+    display: flex;
     align-items: center;
-    color:#991216;
+    color: #991216;
     font-size: 1rem;
     font-family: 'Patrick Hand', cursive;
 }
@@ -352,7 +357,7 @@ ix: Force an Element not to Collaspe------*/
     text-align: center;
     display: grid;
     grid-auto-columns: 400px;
-    
+
 
 }
 
@@ -367,25 +372,28 @@ ix: Force an Element not to Collaspe------*/
 .makeGrid img {
     filter: blur(0em);
     transition: filter 0.5s;
-    width:auto;
-    height:100%;
+    width: auto;
+    height: 100%;
 
 }
+
 /*-------------------------Gallery------------------------------------------*/
 
-#galleryHeading{
+#galleryHeading {
     font-family: 'Kalam', Candara, Gadget, serif;
     text-align: center;
 }
+
 .galleryGrid {
     align-content: center;
     display: grid;
     grid-template-columns: 1fr;
-    
-    
+
+
     justify-content: center;
-    text-align: center;  
+    text-align: center;
 }
+
 .galleryGrid img[data-src] {
     filter: blur(0.2em);
 }
@@ -395,11 +403,13 @@ ix: Force an Element not to Collaspe------*/
     transition: filter 0.5s;
 
 }
-figcaption{
+
+figcaption {
     font-family: 'Patrick Hand', cursive;
     text-align: center;
-    font-size:1.5em;
+    font-size: 1.5em;
 }
+
 .imgblock:hover {
     box-shadow: 0 0 50px #536658;
 
