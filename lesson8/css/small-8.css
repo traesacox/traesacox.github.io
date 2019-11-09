@@ -313,6 +313,11 @@ radio{
     display:block;
 }
 
+.select{
+    display:block;
+    height:2rem;
+}
+
 textarea{
     width: 100%;
     height: 8em;
