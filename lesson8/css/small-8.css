@@ -263,9 +263,10 @@ form label.top{
     display: block;
     padding-top: 1rem;
     color:#991216;
-    font-size: .8rem;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
 }
-form label.top input, formlabe.top select{
+form label.top input, formlabel.top select{
     -webkit-appearnce:none;
     display:block;
     font-size: 1rem;
@@ -276,12 +277,17 @@ form label.top input, formlabe.top select{
     width:100%;
     max-width:20rem;
     background-color: rgba(83, 102, 88, 0.1);
+    font-family: 'Kalam', Candara, Gadget, serif;
 }
 
 form label.sbs{
-    display: block;
+    display: flex;
+    align-items: center;
     padding: .75rem 0;
-    color:#536658
+    color:#991216;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
 }
 
 form input.submitBtn{
@@ -289,7 +295,7 @@ form input.submitBtn{
     background-color:#991216;
     color:white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    padding: .75rem 1rem;
     margin: 0 0 2rem 2%;
     width:96%;
     max-width: 20rem;
@@ -297,10 +303,24 @@ form input.submitBtn{
 
 form label.top input:required{
     border-left: red solid 6px;
+    
 }
 
 form label.top input:required:valid{
     border-left:green solid 6px;
+}
+
+
+.flexly{
+    display:flex;
+    align-items: center;
+    color:#991216;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#ratingvalue {
+    margin: 0 15px;
 }
 
 
