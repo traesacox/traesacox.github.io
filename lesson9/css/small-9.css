@@ -409,16 +409,16 @@ figcaption {
 }
 
 /*-------------------------Styling for Home Page Town Info Blocks------------------------*/
-.townInfo{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap:10px;   
+div .townInfo{
+    display:flex;
+    flex-direction: column;  
     margin-top:20px;
     margin-bottom: 20px;
 }
 
 
 .townInfo section{
+    flex-direction:row;
     background-color:#bdeac9;
     border: solid black;
     border-radius: 5px;
@@ -440,9 +440,11 @@ figcaption {
 color:black;
 }
 .townInfo section p{
+    flex-direction: row;
     text-align:center;
     font-family:'Courgarette', Candara, Gadget, serif;
     font-size: 1.5rem;
+    padding: .5rem;
 }
 
 .townInfo img{
@@ -452,12 +454,12 @@ width: 100%;
 
 
 }
-#Preston{
+.townInfo section:nth-child(1){
     order:3;
 }
-#Fish Haven{
+.townInfo section:nth-child(1){
     order:1;
 }
-#Soda Springs{
+.townInfo section:nth-child(1){
     order:2;
 }

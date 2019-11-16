@@ -21,22 +21,21 @@ fetch(requestURL)
             yearFounded.textContent= "Year Founded: " + towns[i].yearFounded;
             let currPopulation = document.createElement("p");
             currPopulation.textContent= "Current Population: " + towns[i].currentPopulation;
-            //picture.setAttribute('src', prophets[i].imageurl);
-            //picture.setAttribute('id', prophets[i].name);
             let averageRainfall= document.createElement("p");
             averageRainfall.textContent= "Average Rainfall: "+ towns[i].averageRainfall;
             
             let townPic = document.createElement('img');
             townPic.setAttribute("src", "images/" +towns[i].photo);
-           // townPic.scr = "images/"+ towns[i].photo;
             townPic.setAttribute("alt", "Photo of " + towns[i].name);
+            let townText = document.createElement('span');
+
             
-            //picture.setAttribute("alt", "Picture of" + altText);
-            townInfo.appendChild(h2);
-            townInfo.appendChild(motto);
-            townInfo.appendChild(yearFounded);
-            townInfo.appendChild(currPopulation);
-            townInfo.appendChild(averageRainfall);
+            townText.appendChild(h2);
+            townText.appendChild(motto);
+            townText.appendChild(yearFounded);
+            townText.appendChild(currPopulation);
+            townText.appendChild(averageRainfall);
+            townInfo.appendChild(townText);
             townInfo.appendChild(townPic);
             document.querySelector('div.townInfo').appendChild(townInfo);
             }
