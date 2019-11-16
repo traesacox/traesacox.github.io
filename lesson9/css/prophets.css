@@ -4,7 +4,6 @@ main{
 
 section{
     border: 3px solid black;
-    box-shadow: 5px 10px #8888;
     padding-bottom: 10px;
     background-color: rgba(83, 102, 88, 0.6);
 }

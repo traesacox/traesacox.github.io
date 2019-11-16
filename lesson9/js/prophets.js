@@ -19,9 +19,8 @@ fetch(requestURL)
             birthPlace.textContent= "Place of Birth: " + prophets[i].birthplace;
             let picture = document.createElement("img");
             picture.setAttribute('src', prophets[i].imageurl);
-            //picture.setAttribute('id', prophets[i].name);
             let altText= "Picture of President " + prophets[i].lastname;
-            picture.setAttribute("alt", "Picture of" + altText);
+            picture.setAttribute("alt", altText);
             card.appendChild(h2);
             card.appendChild(dateOfBirth);
             card.appendChild(birthPlace);

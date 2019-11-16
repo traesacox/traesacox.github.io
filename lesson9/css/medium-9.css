@@ -132,4 +132,22 @@
     .galleryGrid {
         grid-template-columns: 1fr 1fr;
     }
+    /*-------------------------Styling for Home Page Town Info Blocks------------------------*/
+.townInfo{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:10px;   
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.townInfo section{
+    background-color:#bdeac9;
+    border: solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 15px #536658;
+
+}
 }
