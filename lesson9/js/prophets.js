@@ -20,7 +20,8 @@ fetch(requestURL)
             let picture = document.createElement("img");
             picture.setAttribute('src', prophets[i].imageurl);
             //picture.setAttribute('id', prophets[i].name);
-            picture.setAttribute("alt", "Picture of Prophet");
+            let altText= "Picture of President " + prophets[i].lastname;
+            picture.setAttribute("alt", "Picture of" + altText);
             card.appendChild(h2);
             card.appendChild(dateOfBirth);
             card.appendChild(birthPlace);
