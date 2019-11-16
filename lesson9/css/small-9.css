@@ -457,9 +457,9 @@ width: 100%;
 .townInfo section:nth-child(1){
     order:3;
 }
-.townInfo section:nth-child(1){
+.townInfo section:nth-child(2){
     order:1;
 }
-.townInfo section:nth-child(1){
+.townInfo section:nth-child(3){
     order:2;
 }

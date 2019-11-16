@@ -144,7 +144,7 @@
 }
 .townInfo #Preston{
     
-}
+}*/
 
 .townInfo section{
     background-color:#bdeac9;
@@ -153,7 +153,7 @@
     padding: 20px;
     box-shadow: 5px 15px #536658;
 
-}*/
+}
 div .townInfo{
     display: flex;
     flex-direction:column;
@@ -168,4 +168,5 @@ div .townInfo{
 
     flex-direction: row-reverse;
 }
+
 }

@@ -29,15 +29,11 @@
     /*-------------------------Styling for Home Page Town Info Blocks------------------------*/
     div .townInfo{
         display:flex;
-        flex-direction:row;
-        margin-top:20px;
-        margin-bottom: 20px;
+        flex-direction: row;
     }
+
+
     .townInfo section{
-        display:flex;
-        flex-direction: column;
-    }
-    .townInfo section:nth-child(odd){
         display:flex;
         flex-direction: column;
     }
