@@ -164,8 +164,8 @@ div .townInfo{
     align-items: center;
     justify-content:space-evenly;
 }
-.townInfo section:nth-child(odd){
-    display:flex;
+.townInfo section:nth-child(even){
+
     flex-direction: row-reverse;
 }
 }

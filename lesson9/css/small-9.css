@@ -418,7 +418,7 @@ div .townInfo{
 
 
 .townInfo section{
-    flex-direction:row;
+    
     background-color:#bdeac9;
     border: solid black;
     border-radius: 5px;
