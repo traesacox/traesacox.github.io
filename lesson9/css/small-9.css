@@ -412,7 +412,7 @@ figcaption {
 .townInfo{
     display:grid;
     grid-template-columns: 1fr;
-    gap:10px;   
+    grid-gap:10px;   
     margin-top:20px;
     margin-bottom: 20px;
 }
@@ -453,10 +453,10 @@ width: 100%;
 
 }
 #Preston{
-    order:1;
+    order:3;
 }
 #Fish Haven{
-    order:3;
+    order:1;
 }
 #Soda Springs{
     order:2;

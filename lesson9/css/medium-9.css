@@ -133,14 +133,18 @@
         grid-template-columns: 1fr 1fr;
     }
     /*-------------------------Styling for Home Page Town Info Blocks------------------------*/
-.townInfo{
+/*.townInfo{
     display:grid;
-    grid-template-columns: 1fr;
-    gap:10px;   
+    grid-auto-flow:dense;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;   
     margin-top:20px;
     margin-bottom: 20px;
+    grid-column: span 2;
 }
-
+.townInfo #Preston{
+    
+}
 
 .townInfo section{
     background-color:#bdeac9;
@@ -149,5 +153,19 @@
     padding: 20px;
     box-shadow: 5px 15px #536658;
 
+}*/
+div .townInfo{
+    display: flex;
+    flex-direction:column;
+}
+.townInfo section{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.townInfo section:nth-child(odd){
+    display:flex;
+    flex-direction: row-reverse;
 }
 }
