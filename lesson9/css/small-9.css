@@ -409,22 +409,25 @@ figcaption {
 }
 
 /*-------------------------Styling for Home Page Town Info Blocks------------------------*/
-div .townInfo{
-    display:flex;
-    flex-direction: column;  
+.towninfo img{
+    max-width: 250px;
+}
+
+main .townInfo{
+    display:block;
     margin-top:20px;
     margin-bottom: 20px;
 }
 
 
-.townInfo section{
-    
+main .townInfo section{
+    display:block;
     background-color:#bdeac9;
     border: solid black;
     border-radius: 5px;
-    padding: 20px;
     box-shadow: 5px 15px #536658;
-
+    margin:10px;
+    padding:10px;
 }
 .townInfo h2{
     text-align:center;
@@ -440,11 +443,12 @@ div .townInfo{
 color:black;
 }
 .townInfo section p{
-    flex-direction: row;
+
     text-align:center;
     font-family:'Courgarette', Candara, Gadget, serif;
     font-size: 1.5rem;
-    padding: .5rem;
+    margin:10px auto;
+    padding:0;
 }
 
 .townInfo img{
