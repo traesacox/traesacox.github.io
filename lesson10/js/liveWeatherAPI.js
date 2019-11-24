@@ -27,7 +27,7 @@ fetch(forecastAPIURL)
     const forecastArray = jsObject['list'];
     var countDay = 1;
 
-for (i=o; i<forecastArray.length;i++){
+for (i=0; i<forecastArray.length;i++){
     if(forecastArray[i].dt_txt.includes('18:00:00')){
     const imagesrc2 = 'https://openweathermap.org/img/w/' + forecastArray[i].weather[0].icon +'.png';
     const desc2 = 'https://openweathermap.org/img/w/' + forecastArray[i].weather[0].description;
