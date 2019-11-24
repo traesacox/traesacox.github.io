@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam%7cPatrick+Hand%7cCourgette&display=swap" rel="stylesheet">
-    <link href="css/small-9.css" rel="stylesheet">
-    <link href="css/medium-9.css" rel="stylesheet">
-    <link href="css/large-9.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,14 +54,14 @@
                 <hr>
 
                 <div class="summaryLabel"><b>Current: </b><span class="results"><span
-                            id="weatherDesc">Sunny</span></span> </div>
-                <div class="summaryLabel"><b>High: </b><span class="results"><span id="currtemp">42
+                            id="weatherDesc"></span></span> </div>
+                <div class="summaryLabel"><b>High: </b><span class="results"><span id="currtemp">
                         </span>&#186;F</span> </div>
                 <div class="summaryLabel"><b>Wind Chill: </b><span class="results" id="noWindChill"><span
                             id="currWindChill"></span>&#186;F </span></div>
-                <div class="summaryLabel"><b>Humidity: </b><span class="results"><span id="currHumidity">69%</span>
+                <div class="summaryLabel"><b>Humidity: </b><span class="results"><span id="currHumidity"></span>
                     </span></div>
-                <div class="summaryLabel"><b>Wind Speed: </b><span class="results"><span id="currWindSpeed">5
+                <div class="summaryLabel"><b>Wind Speed: </b><span class="results"><span id="currWindSpeed">
                         </span>mph</span> </div>
 
             </div>
@@ -70,18 +70,18 @@
         <div class="contentBoxForecast">
             <h2>5 day Forecast</h2>
             <section class="forecastWrapper">
-                <div class="days">Mon</div>
-                <div class="days">Tue</div>
-                <div class="days">Wed</div>
-                <div class="days">Thu</div>
-                <div class="days">Fri</div>
-                <div class="details" id="monPic"><img src="images/sunnyIcon.png" alt="Sunny icon"><br>76 &#186;F</div>
-                <div class="details" id="tuesPic"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>72&#186;F
+                <div class="days" id="day1">Mon</div>
+                <div class="days" id="day2">Tue</div>
+                <div class="days" id="day3">Wed</div>
+                <div class="days" id="day4">Thu</div>
+                <div class="days" id="day5">Fri</div>
+                <div class="details" id="Pic1"><img src="images/sunnyIcon.png" alt="Sunny icon"><br>76 &#186;F</div>
+                <div class="details" id="Pic2"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>72&#186;F
                 </div>
-                <div class="details" id="wedPic"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>71&#186;F
+                <div class="details" id="Pic3"><img src="images/sunCloudsIcon.png" alt="Sunny icon"><br>71&#186;F
                 </div>
-                <div class="details" id="thuPic"><img src="images/rainIcon.png" alt="Sunny icon"><br>64&#186;F</div>
-                <div class="details" id="friPic"><img src="images/thunderStormIcon.png" alt="Sunny icon"><br>56&#186;F
+                <div class="details" id="Pic4"><img src="images/rainIcon.png" alt="Sunny icon"><br>64&#186;F</div>
+                <div class="details" id="Pic5"><img src="images/thunderStormIcon.png" alt="Sunny icon"><br>56&#186;F
                 </div>
 
             </section>
@@ -141,13 +141,11 @@
 
     <script src="js/scripts.js"></script>
     <script src="js/bannerScript.js"></script>
-    <script src="js/calcWindchill.js"></script>
-    <script>
-        src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" >
-    </script>
-    <script>
-        src = "js/webfontload.js"
-    </script>
+    <script src="js/weatherapi.js"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" ></script>
+    <script src = "js/webfontload.js"></script>
+    
 </body>
 
 </html>
