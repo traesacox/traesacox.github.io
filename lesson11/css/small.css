@@ -1,0 +1,485 @@
+header,
+footer {
+
+    font-family: 'Kalam', Candara, Gadget, serif;
+    border-radius: 5px;
+    background-color: #bdeac9;
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #991216;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+nav #hamberger {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #536658;
+    font-family: "Patrick Hand", cursive;
+    line-height: 1.75;
+
+}
+
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(83, 102, 88, 0.3);
+    text-align: center;
+    font-size: 1.2em;
+    white-space: nowrap;
+
+}
+
+
+li .active {
+    background-color: rgba(83, 102, 88, 0.1);
+    color: #991216;
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    background-color: rgb(117, 230, 148);
+    color: rgb(83, 102, 88);
+}
+
+.responsive li {
+    display: block;
+}
+
+.announcement {
+    display: none;
+}
+
+.showNow {
+    display: block;
+}
+
+
+
+.contentBox {
+    display: block;
+    margin: 15px 25px;
+    background-color: rgba(83, 102, 88, 0.6);
+    padding: 15px;
+    border: 1px dashed #991216;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/*-----------------------------Main Part of Page-------------------------*/
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    font-size: 2.5rem;
+    color: rgb(83, 102, 88);
+    text-shadow: 3px 3px 5px rgba(83, 102, 88, 0.3);
+}
+
+.heroSection {
+    /*margin: 10px auto;*/
+    position: relative;
+}
+
+/*#heroPic {
+    width: 100%;
+}*/
+
+main picture.heroImg {
+    width: 100%;
+    margin: 0;
+}
+
+main picture.heroImg #heroPic {
+    width: 100%;
+}
+
+main .heroSection .picSizeLabel {
+    position: absolute;
+    top: 5px;
+    left: 330px;
+    font-family: 'Kalam', serif;
+    color: Red;
+    font-size: 1.5em;
+
+}
+
+
+.weatherSummary {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background: radial-gradient(#eee, rgb(117, 230, 148));
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    font-family: 'Courgarette', Candara, Gadget, serif;
+}
+
+.weatherSummary h2 {
+    color: #991216;
+}
+
+.summaryLabel {
+    justify-content: right;
+}
+
+.contentBoxForecast {
+    display: none;
+}
+
+.results {
+    color: #991216;
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.articleImage {
+    width: 45%;
+    float: top;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px white;
+
+}
+
+.articleSubHead{ 
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3rem;
+    padding-bottom:5px;
+    padding-top:25px;
+    margin-top:0;
+    margin-bottom: 0;
+   
+}
+
+.prestonMap {
+    display: none;
+}
+
+.contentBox p {
+    padding: 5px;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:1px;
+    
+    font-family: 'Patrick Hand', cursive;
+    font-size:1.2rem;
+
+}
+
+.contactInfo {
+    font-family: 'Kalam', Candara, Gadget, serif;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+.contactInfo h2 {
+    color: #991216;
+    text-decoration: underline;
+
+}
+
+.announcement {
+    background-color: yellow;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.footerElements {
+    clear: both;
+}
+
+/*----------------------Form Styling---------------------------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #536658;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+
+form legend {
+    color: #536658;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: #991216;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+form label.top input,
+formlabel.top select {
+    -webkit-appearnce: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #536658;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(83, 102, 88, 0.1);
+    font-family: 'Kalam', Candara, Gadget, serif;
+}
+
+form label.sbs {
+    display: flex;
+    align-items: center;
+    padding: .75rem .75rem;
+    color: #991216;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #991216;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+radio {
+    display: block;
+}
+
+.select {
+    display: block;
+    height: 2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 8em;
+}
+
+
+.flexly {
+    display: flex;
+    align-items: center;
+    color: #991216;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+
+/*------------Clearf
+ix: Force an Element not to Collaspe------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------------------------LazyLoadImgs------------------------------*/
+.makeGrid {
+
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: 400px;
+
+
+}
+
+.makeGrid h1 {
+    font-size: 2em;
+}
+
+.makeGrid img[data-src] {
+    filter: blur(0.2em);
+}
+
+.makeGrid img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: auto;
+    height: 100%;
+
+}
+
+/*-------------------------Gallery------------------------------------------*/
+
+#galleryHeading {
+    font-family: 'Kalam', Candara, Gadget, serif;
+    text-align: center;
+}
+
+.galleryGrid {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+    justify-content: center;
+    text-align: center;
+}
+
+.galleryGrid img[data-src] {
+    filter: blur(0.2em);
+}
+
+.galleryGrid img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+
+}
+
+figcaption {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.imgblock:hover {
+    box-shadow: 0 0 50px #536658;
+
+}
+
+/*-------------------------Styling for Home Page Town Info Blocks------------------------*/
+.towninfo img{
+    max-width: 250px;
+}
+
+main .townInfo{
+    display:block;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+main .townInfo section{
+    display:block;
+    background-color:#bdeac9;
+    border: solid black;
+    border-radius: 5px;
+    box-shadow: 5px 15px #536658;
+    margin:10px;
+    padding:10px;
+}
+.townInfo h2{
+    text-align:center;
+    color: #991216;
+    font-size: 2.2rem;
+    font-family: 'Patrick Hand', cursive;
+}
+.townInfo section p:nth-child(1){
+    text-align:center;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 1.25rem;
+color:black;
+}
+.townInfo section p{
+
+    text-align:center;
+    font-family:'Courgarette', Candara, Gadget, serif;
+    font-size: 1.5rem;
+    margin:10px auto;
+    padding:0;
+}
+
+.townInfo img{
+margin-right: auto;
+margin-left: auto;
+width: 100%;
+
+
+}
+.townInfo section:nth-child(1){
+    order:3;
+}
+.townInfo section:nth-child(2){
+    order:1;
+}
+.townInfo section:nth-child(3){
+    order:2;
+}
