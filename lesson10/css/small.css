@@ -204,13 +204,24 @@ main .heroSection .picSizeLabel {
 
 }
 
+.articleSubHead{ 
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3rem;
+    padding-bottom:10px;
+    padding-top:25px;
+    padding-bottom:0;
+   
+}
+
 .prestonMap {
     display: none;
 }
 
 .contentBox p {
     padding: 5px;
+    
     font-family: 'Patrick Hand', cursive;
+    font-size:1.2rem;
 
 }
 
