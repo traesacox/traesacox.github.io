@@ -193,6 +193,38 @@ main .heroSection .picSizeLabel {
     justify-content: left;
     font-weight: bolder;
 }
+div.eventsInfo{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    width: 50%;
+    padding: 1rem;
+    box-shadow:0 0 10px black;
+    padding:10px;
+    background: radial-gradient(#eee,#536658);
+    border:2px solid gray;
+    margin-top:15px;
+    margin-left:25%;
+
+ }
+
+ div .eventsHead{
+     font-family:Kalam,cursive;
+     text-shadow: 2px;
+ }
+ .eventListItem{
+     font-family: 'Patrick Hand', cursive;
+ }
+
+ .eventsInfo img{
+     width:75%;
+     max-width:510px;
+     box-shadow: 5px 5px 5px grey;
+ }
+
+
+
 
 .articleImage {
     width: 45%;
