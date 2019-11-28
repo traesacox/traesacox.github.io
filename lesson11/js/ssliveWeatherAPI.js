@@ -99,8 +99,8 @@ fetch(requestURL)
                     console.log(towns[i].events[0]);
                 }
                 let eventPic = document.createElement('img');
-                eventPic.setAttribute("src", "images/flagInField.jpg");
-                eventPic.setAttribute("alt", "Photo of Flag in Field");
+                eventPic.setAttribute("src", "images/Pumpkins4SodaSprings.jpg");
+                eventPic.setAttribute("alt", "Photo of Pumpkins in a wheel barrel");
                 townEventsDiv.appendChild(eventPic);
                 document.querySelector('div.eventsInfo').appendChild(townEventsDiv);
             }
