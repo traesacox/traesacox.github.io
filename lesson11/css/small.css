@@ -515,3 +515,36 @@ width: 100%;
 .townInfo section:nth-child(3){
     order:2;
 }
+
+.homePgArticle{
+    display: block;
+    margin: 15px 25px;
+    background-color: rgba(83, 102, 88, 0.6);
+    padding: 15px;
+    border: 1px dashed #991216;
+    border: solid black;
+    border-radius: 5px;
+    box-shadow: 5px 10px #536658;
+
+}
+.HomeArticleHead{
+    text-align: center;
+    font-family: 'Kalam', Candara, Gadget, serif;
+}
+
+.HomeArticleAuthor{
+    text-align-last:right;
+}
+.homePgArticle p{
+    font-family:'Courgarette', Candara, Gadget, serif;
+}
+.homeArticleImg{
+    width: 45%;
+    float: right;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px white;
+    padding:5px;
+
+
+}

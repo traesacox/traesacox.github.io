@@ -229,6 +229,7 @@ main .heroSection .picSizeLabel {
 
 }
 
+
 .contactInfo {
     font-family: 'Kalam', Candara, Gadget, serif;
     text-align: center;
@@ -482,4 +483,12 @@ width: 100%;
 }
 .townInfo section:nth-child(3){
     order:2;
+}
+
+#homePgArticle{
+    background-color: #536658;
+}
+#homePgArticle h2{
+    text-align: center;
+    font-family: 'Kalam', Candara, Gadget, serif;
 }
