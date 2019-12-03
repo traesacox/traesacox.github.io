@@ -14,7 +14,7 @@ fetch(requestURL)
             let h2= document.createElement('h2');
             h2.textContent = towns[i].name ;
             townInfo.setAttribute('id', towns[i].name);
-            let motto = document.createElement("p");
+            let motto = document.createElement("h3");
             motto.setAttribute('class', "townMotto")
             motto.textContent= towns[i].motto;
             let yearFounded = document.createElement("p");

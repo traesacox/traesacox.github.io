@@ -516,6 +516,14 @@ width: 100%;
     order:2;
 }
 
+main .townMotto{
+    color:#536658;
+    font-size: 1.25rem;
+    font-family: 'Kalam', Candara, Gadget, serif;
+    text-align:center;
+    font-style:shadow;
+}
+
 .homePgArticle{
     display: block;
     margin: 15px 25px;

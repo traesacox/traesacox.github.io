@@ -40,7 +40,11 @@
     margin-left: 20px;
     margin-right: 20px;
     }
-.townInfo section:nth-child(2){
+.townInfo section:nth-child(odd){
+    display:flex;
+    flex-direction: column;
+}
+.townInfo section:nth-child(even){
     display:flex;
     flex-direction: column;
 }
