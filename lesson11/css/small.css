@@ -210,8 +210,7 @@ div.eventsInfo{
  }
 
  div .eventsHead{
-     font-family:Kalam,cursive;
-     text-shadow: 2px;
+    font-family: 'Kalam', Candara, Gadget, serif;
  }
  .eventListItem{
      font-family: 'Patrick Hand', cursive;
@@ -521,7 +520,6 @@ main .townMotto{
     font-size: 1.25rem;
     font-family: 'Kalam', Candara, Gadget, serif;
     text-align:center;
-    font-style:shadow;
 }
 
 .homePgArticle{
