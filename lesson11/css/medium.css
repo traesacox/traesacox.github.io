@@ -146,14 +146,12 @@
     
 }*/
 
-/*.townInfo img{
+.townInfo img{
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
-    max-width:300px;
+    width: 60%;
     
-    
-    }*/
+    }
 
 div.townInfo{
     display: flex;
