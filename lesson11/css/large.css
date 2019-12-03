@@ -47,12 +47,17 @@
 .townInfo section:nth-child(even){
     display:flex;
     flex-direction: column;
+
 }
 
 .prestonMap{
     max-width: 300px;
 }
+.townInfo img{
+max-width: 215px;
 
+
+}
 
 }
 
