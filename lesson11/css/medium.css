@@ -146,25 +146,24 @@
     
 }*/
 
-.townInfo section{
+div.townInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+main .townInfo section{
+    display:flex;
     flex-direction:row;
     background-color:#bdeac9;
     border: solid black;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 5px 15px #536658;
-
-}
-div.townInfo{
-    display: flex;
-    flex-direction: column;
-}
-.townInfo section{
-    display:flex;
-    flex-direction:row;
     align-items: center;
     justify-content:space-evenly;
+
 }
+
 
 .townInfo section:nth-child(even){
 
