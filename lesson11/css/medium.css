@@ -147,7 +147,7 @@
 }*/
 
 .townInfo section{
-    flex-direction:column;
+    flex-direction:row;
     background-color:#bdeac9;
     border: solid black;
     border-radius: 5px;
@@ -157,8 +157,9 @@
 }
 div.townInfo{
     display: flex;
+    flex-direction: column;
 }
-/*.townInfo section{
+.townInfo section{
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -168,6 +169,6 @@ div.townInfo{
 .townInfo section:nth-child(even){
 
     flex-direction: row-reverse;
-}*/
+}
 
 }
