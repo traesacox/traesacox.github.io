@@ -111,6 +111,17 @@ li .active {
 .showNow {
     display: block;
 }
+
+main{
+    padding:10px;
+}
+main h2{
+    font-family: 'Fondamento', cursive;
+}
+main p{
+    font-family: 'Alice', serif; 
+
+}
 .topSection{
     display:flex;
     flex-direction:row;
@@ -122,6 +133,12 @@ li .active {
     width:30%;
     padding: 10px;
 }
+.sdTempleImg{
+    display:flex;
+    width:70%;
+    height: auto;
+}
+
 
 .actionContact{
     width:35%;
@@ -135,13 +152,17 @@ li .active {
     background-color: #FFC861;
     color:red;
     border-radius: 5px;
+    font-size: xx-large;
 }
-.contactInfo{
+.contactInfo, .description{
     width:100%;
-    padding:10px;
+    padding:20px;
     border:solid black;
-    background-color: #FFC861;
+    box-shadow: 5px 10px #576880;
+    margin:10px;
+    
 }
+
 .lowerSection{
     display:flex;
     flex-direction:row;
@@ -159,10 +180,18 @@ li .active {
 
 }
 .activitiesList{
-    width:100%;
+    width:75%;
     padding:30px;
-}
+    border:solid black;
+    box-shadow: 5px 10px #576880;
+    align-content: center;
+    justify-content: center;
 
+}
+.activitiesList li{
+    font-family: 'Alice', serif;
+    font-size: 1.2rem;
+}
 
 /*.gridWrapper {
     display: grid;
