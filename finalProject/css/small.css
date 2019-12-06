@@ -1,0 +1,129 @@
+/*	font-family: 'Alice', serif; - Body
+	font-family: 'Fondamento', cursive; - Headings
+	font-family: 'Italianno', cursive; - Special
+*/
+
+header,
+footer {
+
+    font-family: 'Fondamento', cursive;
+    border-radius: 5px;
+    background-color: #ADD1FF;
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-family: 'Italianno', cursive;
+    letter-spacing: 1pt;
+    color: #576880;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 550;
+    padding:5px;
+}
+
+nav #hamberger {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #576880;
+    font-family: 'Italianno', cursive;
+    line-height: 1.75;
+
+}
+
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(83, 102, 88, 0.3);
+    text-align: center;
+    font-size: 2em;
+    white-space: nowrap;
+
+}
+
+
+li .active {
+    background-color: rgba(83, 102, 88, 0.1);
+    color: #FFC861;
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    background-color: #ADD1FF;
+    color: rgb(83, 102, 88);
+}
+
+.responsive li {
+    display: block;
+}
+
+.announcement {
+    display: none;
+}
+
+.showNow {
+    display: block;
+}
+
+
+
+.contentBox {
+    display: block;
+    margin: 15px 25px;
+    background-color: rgba(83, 102, 88, 0.6);
+    padding: 15px;
+    border: 1px dashed #991216;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
