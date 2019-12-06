@@ -111,16 +111,114 @@ li .active {
 .showNow {
     display: block;
 }
-
-
-
-.contentBox {
-    display: block;
-    margin: 15px 25px;
-    background-color: rgba(83, 102, 88, 0.6);
-    padding: 15px;
-    border: 1px dashed #991216;
+.topSection{
+    display:flex;
+    flex-direction:row;
+    background-color:#FFC861;
 }
+.sdTempleInfo{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    padding: 10px;
+}
+
+.actionContact{
+    width:35%;
+    background-color: white;
+}
+.actionBtn{
+    padding:50px;
+}
+
+.reserveBtn{
+    background-color: #FFC861;
+    color:red;
+    border-radius: 5px;
+}
+.contactInfo{
+    width:100%;
+    padding:10px;
+    border:solid black;
+    background-color: #FFC861;
+}
+.lowerSection{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+}
+.templeImg1, .activitiesList, .templeImg2{
+    display:flex;
+    flex-direction:column;
+    width: 35%;
+    padding:10px;
+
+} 
+.templeImage{
+    box-shadow: 5px 10px #576880;
+
+}
+.activitiesList{
+    width:100%;
+    padding:30px;
+}
+
+
+/*.gridWrapper {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:100px 100px 100px 100px 100px;
+    
+  
+}
+.sdTempleImg{
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    width:60%;
+    height: auto;
+    border:solid black;
+
+}
+
+.sdTempleInfo{
+    grid-column: 3;
+    grid-row: 1 / 4;
+    border:solid black;
+}
+
+.actionBtn{
+    grid-column: 4;
+    grid-row: 1;
+    border:solid black;
+}
+.contactInfo{
+    grid-column: 4;
+    grid-row: 2;
+    border:solid black;
+
+}
+.templeImg1{
+    grid-column: 1;
+    grid-row: 4;
+    border:solid black;
+}
+.templeActivities{
+    grid-column: 2;
+    grid-row: 5;
+    border:solid black;
+}
+.templeImg2{
+    grid-column: 3;
+    grid-row: 4;
+    border:solid black;
+}
+.templeImg3{
+    grid-column: 4;
+    grid-row: 3;
+    border:solid black;
+}*/
+
+
 
 
 footer {
