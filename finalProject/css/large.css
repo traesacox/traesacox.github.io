@@ -8,5 +8,39 @@
     main{
         max-width: 90%;
     }
-
+    .topSection{
+        display:flex;
+        flex-direction:row;
+        background-color:#FFC861;
+    }
+    .sdTempleInfo{
+        display:flex;
+        flex-direction:column;
+        width:30%;
+        padding: 10px;
+    }
+    .sdTempleImg{
+        display:flex;
+        width:70%;
+        height: auto;
+    }
+    .actionContact{
+        display:flex;
+        flex-direction: column;
+        width:35%;
+        background-color: white;
+    }
+    .lowerSection{
+        display:flex;
+        flex-direction:row;
+        background-color:white;
+    }
+    .templeImg1, .activitiesList, .templeImg2{
+        display:flex;
+        flex-direction:column;
+        width: 35%;
+        padding:10px;
+    
+    } 
+    
 }

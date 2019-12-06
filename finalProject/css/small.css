@@ -124,24 +124,27 @@ main p{
 }
 .topSection{
     display:flex;
-    flex-direction:row;
-    background-color:#FFC861;
+    flex-direction:column;
+    
 }
 .sdTempleInfo{
     display:flex;
     flex-direction:column;
-    width:30%;
     padding: 10px;
+    background-color:#FFC861;
+    width:auto;
 }
 .sdTempleImg{
     display:flex;
-    width:70%;
+    width:auto;
     height: auto;
 }
 
 
 .actionContact{
-    width:35%;
+    display:flex;
+    flex-direction: column;
+    width:auto;
     background-color: white;
 }
 .actionBtn{
@@ -165,13 +168,14 @@ main p{
 
 .lowerSection{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     background-color:white;
+    max-width: 100%;
 }
 .templeImg1, .activitiesList, .templeImg2{
     display:flex;
     flex-direction:column;
-    width: 35%;
+    width: auto;
     padding:10px;
 
 } 
@@ -179,7 +183,7 @@ main p{
     box-shadow: 5px 10px #576880;
 
 }
-.activitiesList{
+div .activitiesList{
     width:75%;
     padding:30px;
     border:solid black;
@@ -188,9 +192,10 @@ main p{
     justify-content: center;
 
 }
+
 .activitiesList li{
     font-family: 'Alice', serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /*.gridWrapper {

@@ -37,4 +37,11 @@
     nav button {
         display: none;
     }
+    .topSection{
+        display:flex;
+        flex-direction:column;
+    }
+    .sdTempleInfo{
+        display:flex;
+        flex-direction:column;
 }

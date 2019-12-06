@@ -40,7 +40,7 @@
 
         <div class="topSection">
             <div class="sdTempleInfo">
-                <h1>San Diego, California Temple</h1>
+                <h2>San Diego, California Temple</h2>
                 <p>Dedicated: April 25, 1993</p>
                 <p>The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of
                     Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built
@@ -48,8 +48,13 @@
                     spire. The East spire is topped with the familiar Angel Moroni statue which adorns most LDS temples.
                 </p>
             </div>
-            <div class="sdTempleImg"><img class="sdTemplePic" src="./images/san-diego-temple.jpg"
-                    alt="Picture of San Diego Temple"></div>
+            <div class="sdTempleImg">
+                    <picture class="templeImg">
+                            <source media="(max-width: 768px)" srcset="images/san-diego-temple500.jpg">
+                            <source media="(max-width: 992px)" srcset="images/san-diego-temple800.jpg" />
+                            <img class="sdTemplePic" src="./images/san-diego-temple.jpg" alt="Picture of San Diego Temple">
+                        </picture>
+                </div>
 
             <div class="actionContact">
                 <div class="description">
