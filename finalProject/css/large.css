@@ -21,8 +21,9 @@
     }
     .sdTempleImg{
         display:flex;
-        width:70%;
+        width:auto;
         height: auto;
+      
     }
     .actionContact{
         display:flex;
