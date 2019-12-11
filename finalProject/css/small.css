@@ -232,7 +232,7 @@ form label.top {
 form label.top input,
 formlabel.top select {
     -webkit-appearnce: none;
-    display: block;
+    display: flex;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
@@ -244,14 +244,14 @@ formlabel.top select {
     font-family: 'Kalam', Candara, Gadget, serif;
 }
 
-form label.sbs {
+/*form label.sbs {
     display: flex;
     align-items: center;
     padding: .75rem .75rem;
     color: #991216;
     font-size: 1rem;
     font-family: 'Patrick Hand', cursive;
-}
+}*/
 
 
 form input.submitBtn {
@@ -298,8 +298,6 @@ textarea {
 }
 
 
-
-
 /*------------Clearf
 ix: Force an Element not to Collaspe------*/
 .clearfix:after {
@@ -307,6 +305,20 @@ ix: Force an Element not to Collaspe------*/
     display: table;
     clear: both;
 }
+
+/*---------------------------Styling for Temples Page----------------------------*/
+.gridWrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.templeInfo{
+    display:block;
+    background-color: #ADD1FF;
+    padding: 10px;
+
+}
+
 
 /*.gridWrapper {
     display: grid;

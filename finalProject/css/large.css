@@ -43,5 +43,11 @@
         padding:10px;
     
     } 
+
+    /*---------------------------Styling for Temples Page----------------------------*/
+.gridWrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
     
 }
