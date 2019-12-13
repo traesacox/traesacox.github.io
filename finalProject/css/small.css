@@ -313,7 +313,7 @@ ix: Force an Element not to Collaspe------*/
 }
 
 .templeInfo{
-    display:block;
+    border:solid black;
     background-color: #ADD1FF;
     padding: 10px;
 
