@@ -316,7 +316,11 @@ ix: Force an Element not to Collaspe------*/
     border:solid black;
     background-color: #ADD1FF;
     padding: 10px;
+    width:auto;
 
+}
+.space1{
+    line-height: 1em;
 }
 
 

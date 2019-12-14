@@ -50,5 +50,9 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
-
+.templeInfo{
+        display:grid;
+        width:auto;
+        margin-left: 10px;
+}
 }

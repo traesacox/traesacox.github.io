@@ -47,8 +47,15 @@
     /*---------------------------Styling for Temples Page----------------------------*/
 .gridWrapper{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     
+    padding:10px;
+    
+}
+.templeInfo{
+    display:grid;
+    width:auto;
+    margin-left: 10px;
 }
 
     
