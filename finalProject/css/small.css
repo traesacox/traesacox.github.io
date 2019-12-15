@@ -112,9 +112,9 @@ li .active {
     display: block;
 }
 
-main{
-    max-width: 80%;
-    padding:10px;
+main {
+    max-width: 1000px;
+    margin: auto;
 }
 main h2{
     font-family: 'Fondamento', cursive;
