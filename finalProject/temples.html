@@ -41,11 +41,22 @@
         <div class="gridWrapper">
 
             <div class="templeInfo">
+                <div class="topInfo2Flex">
+                <div class="address">
                 <h2>Oakland, California</h2>
                 <p class="space1">4770 Lincoln Ave<br>
                 Oakland, CA 94602-2535, USA<br>
                 (510)531-3200<br>
-                e-Mail: </p>
+                e-Mail: </p></div>
+                <div class="weatherSummary">
+                    <h2 id="summaryTitle">Current Weather</h2>
+                    <hr>
+                        <div class="summaryLabel"><span class="results"><span id="weatherDesc"></span></span>
+                    </div>
+                    <div class="summaryLabel"><b>Temp: </b><span class="results"><span id="currtemp">
+                            </span>&#186;F</span> </div></div>
+                        </div>
+
                 <p>The Oakland California Temple is the 15th constructed and 13th operating temple of The Church
                     of Jesus Christ of Latter-day Saints. During a January 23, 1961 meeting, plans for the
                     temple were announced by David O. McKay. Ground was broken on May 26, 1962, with the
@@ -67,6 +78,7 @@
                     <li>Distribution Center</li>
                 </ul>
                 <h4>Temple Closure Date</h4>
+                <div id = "closed0"></div>
             </div>
             <div class="templeInfo">
                 <h2>San Diego, California</h2>
@@ -97,6 +109,7 @@
                         <li>Distribution Center</li>
                     </ul>
                     <h4>Temple Closure Date</h4>
+                    <p id = "closed1"></p>
             </div>
             <div class="templeInfo">
                 <h2>Seattle, Washington</h2>
@@ -129,6 +142,7 @@
                     <li>Distribution Center</li>
                 </ul>
                 <h4>Temple Closure Date</h4>
+                <p id = "closed2"></p>
             </div>
             <div class="templeInfo">
                 <h2>Provo City, Utah</h2>
@@ -154,11 +168,22 @@
                     <li>Distribution Center</li>
                 </ul>
                 <h4>Temple Closure Date</h4>
+                <p id = "closed3"></p>
             </div>
 
         </div>
 
     </main>
+    <footer>
+        <div class="footerElements">
+            &copy; <span id="currentyear"></span> | Temple Inn and Suites | Traesa M. Titel | <a
+                href="https://www.byui.edu/online">BYUI Online</a>
+            <div><span id="currentModDate"></span></div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script srs ="js/templeInfo.js"></script>
 </body>
 
 </html>
