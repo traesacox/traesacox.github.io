@@ -321,6 +321,10 @@ ix: Force an Element not to Collaspe------*/
     width:auto;
 
 }
+.templeLocation{
+    font-size: 2rem;
+    text-align: center;
+}
 .topInfo2Flex{
     display:flex;
     flex-direction: row;
@@ -334,7 +338,7 @@ ix: Force an Element not to Collaspe------*/
     top: 5px;
     left: 30px;*/
     width:20%;
-    margin-left:50px;
+    margin-left:65px;
     margin-top:5px;
     background: radial-gradient(#eee,#b3ccf0);
     border: 1px solid #000;
@@ -361,6 +365,7 @@ ix: Force an Element not to Collaspe------*/
     color: #991216;
     justify-content: left;
     font-weight: bolder;
+    text-transform: capitalize;
 }
 p.space1{
     line-height: 1.5em;

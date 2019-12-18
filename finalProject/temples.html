@@ -43,7 +43,7 @@
             <div class="templeInfo">
                 <div class="topInfo2Flex">
                 <div class="address">
-                <h2>Oakland, California</h2>
+                <h2 class="templeLocation">Oakland, California</h2>
                 <p class="space1">4770 Lincoln Ave<br>
                 Oakland, CA 94602-2535, USA<br>
                 (510)531-3200<br>
@@ -81,11 +81,21 @@
                 <div id = "closed0"></div>
             </div>
             <div class="templeInfo">
-                <h2>San Diego, California</h2>
+                <h2 class="templeLocation">San Diego, California</h2>
+                <div class="topInfo2Flex">
+                    <div class="address">
                  <p class="space1">7474 Charmant Drive<br>
                  San Diego, CA<br>
                  (858)622-0991<br>
-                e-Mail: </p>
+                e-Mail: </p></div>
+                <div class="weatherSummary">
+                    <h2 id="summaryTitle">Current Weather</h2>
+                    <hr>
+                        <div class="summaryLabel"><span class="results"><span id="weatherDesc"></span></span>
+                    </div>
+                    <div class="summaryLabel"><b>Temp: </b><span class="results"><span id="currtemp">
+                            </span>&#186;F</span> </div></div>
+                        </div>
                 <p>The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of
                     Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built
                     with two main spires, but unique to this temple are four smaller spires at the base of each main
@@ -112,11 +122,12 @@
                     <p id = "closed1"></p>
             </div>
             <div class="templeInfo">
-                <h2>Seattle, Washington</h2>
+                <h2 class="templeLocation">Seattle, Washington</h2>
                  <p class="space1">2808 148th Avenue South East<br>
                  Bellevue, WA 94602-2535, USA<br>
                  (425)643-5144<br>
                  e-Mail: </p>
+                 
                 <p>The Seattle Washington Temple is the 21st constructed and 19th operating temple of The Church of
                     Jesus Christ of Latter-day Saints. Located in the city of Bellevue, east of Seattle, it was the
                     first to be built in the state of Washington. The temple has a modern single-spire design. Ground
@@ -145,7 +156,7 @@
                 <p id = "closed2"></p>
             </div>
             <div class="templeInfo">
-                <h2>Provo City, Utah</h2>
+                <h2 class="templeLocation">Provo City, Utah</h2>
                 <p class="space1">50 South University Ave<br>
                     Provo, Ut, USA<br>
                     (801)343-2700<br>
@@ -183,7 +194,7 @@
     </footer>
 
     <script src="js/scripts.js"></script>
-    <script srs ="js/templeInfo.js"></script>
+    <script src ="js/templeInfo.js"></script>
 </body>
 
 </html>
