@@ -325,6 +325,14 @@ p.space1{
     line-height: 1.5em;
 }
 
+h4{
+    line-height: 1.5em;
+}
+
+.makeBold{
+    font-weight: bold;
+}
+
 
 /*.gridWrapper {
     display: grid;
