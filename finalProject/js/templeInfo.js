@@ -53,7 +53,7 @@ fetch(apiURL2)
 
 /*======================================Temple Closure Dates======================================*/
 
-const requestURL = 'https://github.com/traesacox/traesacox.github.io/blob/master/finalProject/templeClosures.json';
+const requestURL = 'https://traesacox.github.io/finalProject/data/templeClosures.json';
 
 fetch(requestURL)
     .then(function (response) {
