@@ -63,8 +63,8 @@
     padding:20px;
 }
 .amenities{
-    padding: 20px;
-    margin-right:1.5rem;
+
+    margin-right:3rem;
 }
 .svcMid{
     display:flex;
@@ -74,5 +74,11 @@
 .svcBottom{
     display:flex;
     flex-direction: row;
+    margin-top: 1.5rem;
 
+}
+.svcPic{
+
+    width:100%;
+}
 }
