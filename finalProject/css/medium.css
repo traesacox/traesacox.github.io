@@ -55,4 +55,24 @@
         width:auto;
         margin-left: 10px;
 }
+
+/*------------------------------------Styling for Services Page--------------------------*/
+.svcTop{
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+}
+.amenities{
+    padding: 20px;
+    margin-right:1.5rem;
+}
+.svcMid{
+    display:flex;
+    flex-direction: row;
+}
+
+.svcBottom{
+    display:flex;
+    flex-direction: row;
+
 }
