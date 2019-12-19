@@ -1,21 +1,23 @@
 {
-"temples"
+"temples":
 [
 {"id":"0", 
 "templeName": "Oakland California",
 "datesClosed":["All Mondays", "December 24, 2019", "December 25, 2019", "December 31, 2019", "January 1, 2020", 
 "March 9 - March 23, 2020", "April 4, 2020", "July 4, 2020", "September 14 - September 29, 2020", 
-"October 3, 2020", "November 25, 2020", "November 26, 2020"]}
+"October 3, 2020", "November 25, 2020", "November 26, 2020"]},
 {"id":"1", 
 "templeName": "San Diego California",
 "datesClosed":["December 24, 2019", "December 25, 2019", "December 31, 2019", "January 1, 2020", 
 "March 16 - March 30, 2020", "April 4, 2020", "July 4, 2020", "September 14 - September 28, 2020", 
-"October 3, 2020", "November 25, 2020", "November 26, 2020"]}
+"October 3, 2020", "November 25, 2020", "November 26, 2020"]
+},
 {"id":"2", 
     "templeName": "Seatle Washington",
     "datesClosed":["December 24, 2019", "December 25, 2019", "December 31, 2019", "January 1, 2020", 
     "February 10 - February 24, 2020", "April 4, 2020", "July 4, 2020", "August 17 - September 7, 2020", 
-    "October 3, 2020", "November 24, 2020", "November 25, 2020","November 26, 2020"]}
+    "October 3, 2020", "November 24, 2020", "November 25, 2020","November 26, 2020"]
+},
 {"id":"3", 
     "templeName": "Provo City Utah",
     "datesClosed":["December 24, 2019", "December 25, 2019", "December 31, 2019", "January 1, 2020", 

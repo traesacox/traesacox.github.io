@@ -51,4 +51,32 @@ fetch(apiURL2)
         });
 
 
+/*======================================Temple Closure Dates======================================*/
+
+const requestURL = 'https://github.com/traesacox/traesacox.github.io/blob/master/finalProject/templeClosures.json';
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const temples = jsonObject['temples'];
+        for (let i = 0; i < temples.length; i++) {
+            if ((temples[i].name == "Oakland California")) {
+                let templeClosedDiv0 = document.createElement('section')
+                for (let x = 0; x < temples[i].datesClosed.length; x++) {
+                    let aDate = document.createElement("p");
+                    aDate.textContent = temples[i].datesClosed[x];
+                    aDate.className = "ClosedDateItem";
+                    templeClosedDiv0.appendChild(aDate);
+                    console.log(temples[i].datesClosed[0]);
+                }
+                
+                document.querySelector('div.closed0').appendChild(templeClosedDiv0);
+            }
+
+        }
+    });
 
