@@ -6,7 +6,7 @@
     }
 
     main{
-        max-width: 100%;
+        max-width: 95%;
     }
     .topSection{
         display:flex;
@@ -24,6 +24,9 @@
         width:auto;
         height: auto;
       
+    }
+    .templeImg{
+        width: 30%;
     }
     .actionContact{
         display:flex;
