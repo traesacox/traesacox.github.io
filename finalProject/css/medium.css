@@ -79,7 +79,17 @@
 }
 .svcPic{
 
-    width:100%;
+    width:75%;
+}
+.roomInfo{
+    width:40%;
+    
+}
+
+.contractFormSvc{
+    width:30%;
+
+    margin-right:2.5rem;
 }
 /*------------------------------Styling for Contact Page---------------------------*/
 .topContact{
@@ -90,4 +100,11 @@
 display:flex;
 flex-direction: row;
 }
+.missionStatement{
+    width:50%;
+}
+.contactForm{
+    width:50%;
+}
+
 }
