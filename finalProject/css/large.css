@@ -11,27 +11,33 @@
     .topSection{
         display:flex;
         flex-direction:row;
-        background-color:#FFC861;
+
     }
     .sdTempleInfo{
         display:flex;
         flex-direction:column;
         width:30%;
         padding: 10px;
+        background-color:#FFC861;
     }
     .sdTempleImg{
         display:flex;
         width:auto;
-        height: auto;
+       
       
     }
     .templeImg{
-        width: 30%;
+        width: 250px;
+    }
+
+    .midSection{
+        display:flex;
+        flex-direction:row;
     }
     .actionContact{
         display:flex;
-        flex-direction: column;
-        width:35%;
+        flex-direction: row;
+        
         background-color: white;
     }
     .lowerSection{
