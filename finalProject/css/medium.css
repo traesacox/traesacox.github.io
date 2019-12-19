@@ -81,4 +81,13 @@
 
     width:100%;
 }
+/*------------------------------Styling for Contact Page---------------------------*/
+.topContact{
+    display:flex;
+    flex-direction: row;
+}
+.bottomContact{
+display:flex;
+flex-direction: row;
+}
 }

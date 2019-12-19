@@ -377,6 +377,12 @@ h4{
 }
 
 /*------------------------------------Styling for Services Page--------------------------*/
+.svcHeading{
+    font-family: 'Fondamento', cursive;
+    font-size:2.5rem;
+
+}
+
 .svcTop{
     display:flex;
     flex-direction: column;
@@ -425,6 +431,15 @@ h4{
 .roomInfo{
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+}
+/*------------------------------Styling for Contact Page---------------------------*/
+.topContact{
+        display:flex;
+        flex-direction: column;
+}
+.bottomContact{
+    display:flex;
+    flex-direction: column;
 }
 /*.gridWrapper {
     display: grid;

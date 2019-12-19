@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn and Suites - Home Page</title>
+    <meta name="description" content="Contact Page for Temple Inn and Suites Site">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Alice|Fondamento|Italianno&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="./images/LogoTemple.png" alt="Picture of temple logo">
+        <section class="headings">
+            <h1>Temple Inn and Suites</h1>
+            <div class="motto">Visit Heaven on Earth and feel right at Home</div>
+
+        </section>
+
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a id=hamberger href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./temples.html">Temples</a></li>
+            <li><a href="./reservation.html">Reservations</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a class="active" href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="topContact">
+        <div class="contactInfo">
+            <h2>Contact Us</h2>
+            <h3>Temple Inn and Suites</h3>
+            <p> 4800 Montgomery Ln #300<br>
+                Bethesda, MD 20814</p>
+            <p>(800)777-4INN (4466)</p>
+            <p>e-mail: contact@TempleInn.com</p>
+        </div>
+        <div class="embeddedMap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048360733!3d38.98325177955755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576730857069!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="bottomContact">
+        <div class="missionStatement">
+            <h3>Our Mission</h3>
+            <p>At Temple Inn and Suites we strive to do everything to make you stay however short or long, as comfortant
+                and carefree as possible. We offer many services for individuals and families that have travel long
+                distances to come to the temple. We know that this often comes as great sacfrice and we seek to make
+                accomodation that are affordable and with enable you to focus of the eternal purposes for you visit. We
+                aim to serve, so if there is anything we can do to help, just contact us!</p>
+        </div>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top" for="name">Full Name*:
+                    <input type="text" id="name" name="user_name" required pattern="[A-Za-z].{6,}"></label>
+                <label class="top" for="email">E-Mail:
+                    <input type="email" id="email" name="user_email" placeholder="somebody@gmail.com"></label>
+                <label class="top" for="phone">Telephone Number*:
+                    <input type="tel" id="phone" name="user_phone" required></label>
+            
+        
+                <legend>Addition Information or Comments</legend><label class="top" for="extraInfo"><textarea
+                        id="extraInfo" name="more_info"></textarea></label>
+            
+            <input type="submit" value="Send Contact Request" id="sendInfo" class="submitBtn" name="Send Reservation">
+</fieldset>
+        </form>
+    </div>
