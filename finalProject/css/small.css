@@ -119,9 +119,20 @@ main {
 main h2{
     font-family: 'Fondamento', cursive;
 }
+main h4{
+    font-family: 'Fondamento', cursive;
+    font-size:1.8rem;
+    line-height: 1.5rem;
+    margin-bottom:0;
+
+}
 main p{
     font-family: 'Alice', serif; 
+    font-size: 1.5rem;
 
+}
+li{
+    font-size: 1.5rem;
 }
 .topSection{
     display:flex;
@@ -291,14 +302,6 @@ textarea {
 }
 
 
-.flexly {
-    display: flex;
-    align-items: center;
-    color: #991216;
-    font-size: 1rem;
-    font-family: 'Patrick Hand', cursive;
-}
-
 
 /*------------Clearf
 ix: Force an Element not to Collaspe------*/
@@ -323,7 +326,7 @@ ix: Force an Element not to Collaspe------*/
 .templeInfo{
     border:solid black;
     background-color: #ADD1FF;
-    padding: 10px;
+    padding: 5px;
     width:auto;
 
 }
@@ -454,62 +457,6 @@ h4{
     box-shadow: 5px 10px #576880;
     margin:10px;
 }
-
-/*.gridWrapper {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows:100px 100px 100px 100px 100px;
-    
-  
-}
-.sdTempleImg{
-    grid-column: 1 / 4;
-    grid-row: 1 / 4;
-    width:60%;
-    height: auto;
-    border:solid black;
-
-}
-
-.sdTempleInfo{
-    grid-column: 3;
-    grid-row: 1 / 4;
-    border:solid black;
-}
-
-.actionBtn{
-    grid-column: 4;
-    grid-row: 1;
-    border:solid black;
-}
-.contactInfo{
-    grid-column: 4;
-    grid-row: 2;
-    border:solid black;
-
-}
-.templeImg1{
-    grid-column: 1;
-    grid-row: 4;
-    border:solid black;
-}
-.templeActivities{
-    grid-column: 2;
-    grid-row: 5;
-    border:solid black;
-}
-.templeImg2{
-    grid-column: 3;
-    grid-row: 4;
-    border:solid black;
-}
-.templeImg3{
-    grid-column: 4;
-    grid-row: 3;
-    border:solid black;
-}*/
-
-
 
 
 footer {

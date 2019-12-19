@@ -6,7 +6,7 @@
     }
 
     main{
-        max-width: 90%;
+        max-width: 100%;
     }
     .topSection{
         display:flex;
@@ -55,7 +55,7 @@
 .templeInfo{
     display:grid;
     width:auto;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
     
