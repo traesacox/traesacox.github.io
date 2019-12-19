@@ -238,8 +238,8 @@ form label.top {
     display: block;
     padding-top: 1rem;
     color: #991216;
-    font-size: 1rem;
-    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    font-family: 'Fondamento', cursive;
 }
 
 form label.top input,
@@ -254,17 +254,18 @@ formlabel.top select {
     width: 100%;
     max-width: 20rem;
     background-color: rgba(83, 102, 88, 0.1);
-    font-family: 'Kalam', Candara, Gadget, serif;
+    font-family: 'Fondamento', cursive;
 }
+legend{
+    font-family: 'Fondamento', cursive;
+    font-size: 1.5rem;
 
-/*form label.sbs {
-    display: flex;
-    align-items: center;
-    padding: .75rem .75rem;
-    color: #991216;
-    font-size: 1rem;
-    font-family: 'Patrick Hand', cursive;
-}*/
+}
+option{
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
+
+}
 
 
 form input.submitBtn {
@@ -276,6 +277,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-size: 1.5rem;
 }
 
 form label.top input:required {
